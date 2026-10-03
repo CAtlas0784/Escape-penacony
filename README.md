@@ -12,9 +12,7 @@ Allows players and developers to easily escape Penacony and explore all planets,
 - **🎮 8 Worlds & 78+ Explorable Maps**: Includes Astral Express, Herta Space Station, Jarilo-VI (Belobog), Xianzhou Luofu, Penacony, Amphoreus, Planarcadia, and Astropolis.
 - **⚔️ Integrated Calyx & Combat**: Automatically recalculates and writes native `calyx_*` spawn points, group IDs, instance IDs, and entity IDs so you can trigger combat on any map.
 - **🎯 Interactive 2-Tier CLI Menu**: Clean arrow-key (`↑` / `↓` / `Enter`) terminal navigation with pagination and back buttons.
-- **🛡️ UTF-8 No-BOM & Zero-Crash Architecture**: Writes clean UTF-8 without byte-order marks to prevent Python `json.load()` crashes.
 - **🚀 One-Click Server Launcher (`start_ppsr.bat`)**: Launches `ppsr.exe` with UTF-8 console encoding (`chcp 65001`) preventing encoding errors with Chinese console text.
-- **🌐 Zero Hardcoded Paths**: Dynamic path resolution across all Windows machines (`%USERPROFILE%`, Downloads, Desktop, relative paths).
 - **➕ Custom Coordinates Support**: Option to enter custom Plane IDs and (X, Y, Z) coordinates directly.
 
 ---

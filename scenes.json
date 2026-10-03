@@ -614,20 +614,20 @@
       "icon": "[🏛️]",
       "scenes": [
         {
-          "name": "Aedes Elysiae (Temple of Elysium)",
-          "plane_id": 10441,
-          "x": 92811,
-          "y": 12565,
-          "z": 129068,
+          "name": "Okhema - Eternal Holy City (Central Agora)",
+          "plane_id": 10401,
+          "x": 216390,
+          "y": 103529,
+          "z": 270850,
           "map_layer": 1,
-          "desc": "Sanctuary of Elysian gods & eternal marble colonnades",
-          "calyx_group_id": 2,
+          "desc": "Central grand agora & holy city of Amphoreus",
+          "calyx_group_id": 6,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
           "calyx_entity_id": 1337
         },
         {
-          "name": "Vortex of Genesis",
+          "name": "Okhema - Vortex of Genesis",
           "plane_id": 10402,
           "x": 100,
           "y": 1021,
@@ -640,33 +640,7 @@
           "calyx_entity_id": 1337
         },
         {
-          "name": "Beyond Time: An Eternal Page",
-          "plane_id": 10405,
-          "x": 466272,
-          "y": 164890,
-          "z": 49231,
-          "map_layer": 1,
-          "desc": "Sacred chronos archive and cosmic hourglass ruins",
-          "calyx_group_id": 80,
-          "calyx_inst_id": 300001,
-          "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
-        },
-        {
-          "name": "Sanctuary Central Plaza",
-          "plane_id": 10401,
-          "x": 216390,
-          "y": 103529,
-          "z": 270850,
-          "map_layer": 1,
-          "desc": "Central grand agora of Amphoreus holy land",
-          "calyx_group_id": 6,
-          "calyx_inst_id": 300001,
-          "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
-        },
-        {
-          "name": "Holy Acropolis Sky Bridge",
+          "name": "Okhema - Holy Acropolis Sky Bridge",
           "plane_id": 10403,
           "x": -2660,
           "y": 888340,
@@ -679,7 +653,7 @@
           "calyx_entity_id": 1337
         },
         {
-          "name": "Lower Sunken Valley",
+          "name": "Okhema - Lower Sunken Valley",
           "plane_id": 10404,
           "x": 89730,
           "y": -6120,
@@ -692,7 +666,33 @@
           "calyx_entity_id": 1337
         },
         {
-          "name": "Temple of the Titans (Maze 1)",
+          "name": "Okhema - Beyond Time (Eternal Page)",
+          "plane_id": 10405,
+          "x": 466272,
+          "y": 164890,
+          "z": 49231,
+          "map_layer": 1,
+          "desc": "Sacred chronos archive and cosmic hourglass ruins",
+          "calyx_group_id": 80,
+          "calyx_inst_id": 300001,
+          "calyx_prop_id": 808,
+          "calyx_entity_id": 1337
+        },
+        {
+          "name": "Aedes Elysiae - Temple of Elysium",
+          "plane_id": 10441,
+          "x": 92811,
+          "y": 12565,
+          "z": 129068,
+          "map_layer": 1,
+          "desc": "Sanctuary of Elysian gods & eternal marble colonnades",
+          "calyx_group_id": 2,
+          "calyx_inst_id": 300001,
+          "calyx_prop_id": 808,
+          "calyx_entity_id": 1337
+        },
+        {
+          "name": "Castrum Kremnos - Temple of the Titans",
           "plane_id": 20411,
           "x": -90,
           "y": 81770,
@@ -708,7 +708,7 @@
           "calyx_z": 16470
         },
         {
-          "name": "Hall of Prophecy (Maze 2)",
+          "name": "Castrum Kremnos - Hall of Prophecy",
           "plane_id": 20412,
           "x": -12150,
           "y": 12680,
@@ -721,7 +721,7 @@
           "calyx_entity_id": 1337
         },
         {
-          "name": "Underground Catacombs (Maze 3)",
+          "name": "Castrum Kremnos - Underground Catacombs",
           "plane_id": 20413,
           "x": 5320,
           "y": 26719,
@@ -734,7 +734,7 @@
           "calyx_entity_id": 1337
         },
         {
-          "name": "Sacred Colonnade Terrace",
+          "name": "Janusopolis - Sacred Colonnade Terrace",
           "plane_id": 20421,
           "x": -27147,
           "y": 175260,
@@ -750,7 +750,7 @@
           "calyx_z": 264431
         },
         {
-          "name": "Sunken Grove of Destiny",
+          "name": "Grove of Epiphany - Sunken Grove of Destiny",
           "plane_id": 20422,
           "x": -2200,
           "y": -7561,
@@ -766,7 +766,7 @@
           "calyx_z": -42392
         },
         {
-          "name": "Grand Hall of Fate",
+          "name": "Janusopolis - Grand Hall of Fate",
           "plane_id": 20423,
           "x": 251605,
           "y": 165544,
@@ -779,59 +779,59 @@
           "calyx_entity_id": 1337
         },
         {
-          "name": "Subterranean Vault",
+          "name": "Styxia - Dragonbone City (Sealed Vault)",
           "plane_id": 20431,
           "x": 0,
           "y": -46820,
           "z": -112786,
           "map_layer": 1,
-          "desc": "Sealed divine treasury",
+          "desc": "Styxia dragonbone ruins & sealed divine treasury",
           "calyx_group_id": 6,
           "calyx_inst_id": 300002,
           "calyx_prop_id": 808,
           "calyx_entity_id": 1337
         },
         {
-          "name": "Deep Tartarus Cavern",
+          "name": "Styxia - Dragonbone City (Tartarus Abyss)",
           "plane_id": 20432,
           "x": -68438,
           "y": -622237,
           "z": 9466,
           "map_layer": 1,
-          "desc": "Lowest abyss beneath Amphoreus",
+          "desc": "Styxia abyss, River of Souls & fallen titan bones",
           "calyx_group_id": 6,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
           "calyx_entity_id": 1337
         },
         {
-          "name": "Outer Pier of Styx",
+          "name": "Styxia - Warbling Shores (Pier of Styx)",
           "plane_id": 20433,
           "x": 30,
           "y": 27813,
           "z": -824640,
           "map_layer": 1,
-          "desc": "Watergate edge and boat landing",
+          "desc": "Styxia warbling shores, watergate edge & boat landing",
           "calyx_group_id": 3,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
           "calyx_entity_id": 1337
         },
         {
-          "name": "Temple of the Muses",
+          "name": "Aidonia - Temple of the Muses (Snow City)",
           "plane_id": 20451,
           "x": 160962,
           "y": 34396,
           "z": 219317,
           "map_layer": 1,
-          "desc": "Sanctuary of harmony, music, and poetry",
+          "desc": "Aidonia snow city sanctuary of harmony and poetry",
           "calyx_group_id": 12,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
           "calyx_entity_id": 1337
         },
         {
-          "name": "Sky Arena of Ares",
+          "name": "Eye of Twilight - Sky Arena of Ares",
           "plane_id": 20461,
           "x": -49379,
           "y": 42833,
@@ -844,7 +844,7 @@
           "calyx_entity_id": 1337
         },
         {
-          "name": "Pinnacle of Ascension",
+          "name": "Eye of Twilight - Pinnacle of Ascension",
           "plane_id": 20462,
           "x": 20,
           "y": 4910,
@@ -857,26 +857,26 @@
           "calyx_entity_id": 1337
         },
         {
-          "name": "Summit Observatory",
+          "name": "Great Tomb of Nameless Titan - Summit Observatory",
           "plane_id": 20481,
           "x": 105799,
           "y": 60931,
           "z": 445527,
           "map_layer": 1,
-          "desc": "Peak stargazing sanctuary",
+          "desc": "Peak stargazing sanctuary & universal matrix",
           "calyx_group_id": 2,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
           "calyx_entity_id": 1337
         },
         {
-          "name": "Fallen Star Crater",
+          "name": "Great Tomb of Nameless Titan - Fallen Star Crater",
           "plane_id": 20482,
           "x": 711195,
           "y": -93915,
           "z": -653851,
           "map_layer": 1,
-          "desc": "Ancient meteor impact crater with divine relics",
+          "desc": "Ancient meteor impact crater & nightmare echo",
           "calyx_group_id": 2,
           "calyx_inst_id": 300002,
           "calyx_prop_id": 808,

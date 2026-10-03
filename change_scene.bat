@@ -2,6 +2,7 @@
 setlocal enabledelayedexpansion
 title Escape Penacony Tool - ppSR Scene Selector
 chcp 65001 > nul
+mode con: cols=120 lines=32 > nul 2>&1
 cd /d "%~dp0"
 
 :: Check PowerShell availability

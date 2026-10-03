@@ -137,7 +137,7 @@ function Show-InteractiveMenu {
         [string]$Title,
         [string]$Subtitle,
         [array]$Items,
-        [int]$PageSize = 12,
+        [int]$PageSize = 10,
         [int]$InitialIndex = 0
     )
 
@@ -146,15 +146,34 @@ function Show-InteractiveMenu {
     $sel = [Math]::Max(0, [Math]::Min($InitialIndex, $Items.Count - 1))
     $topVisible = 0
 
-    Clear-Host
-    Write-Host "================================================================================" -ForegroundColor DarkCyan
-    Write-Host "  $Title" -ForegroundColor Cyan
-    if ($Subtitle) {
-        Write-Host "  $Subtitle" -ForegroundColor DarkGray
+    $winWidth = 80
+    try {
+        if ([Console]::WindowWidth -gt 50) { $winWidth = [Console]::WindowWidth }
+    } catch {}
+    $maxLine = [Math]::Max(50, [Math]::Min($winWidth - 2, 105))
+
+    $writeRow = {
+        param([string]$Text, [ConsoleColor]$Fg = [ConsoleColor]::Gray, [ConsoleColor]$Bg = [ConsoleColor]::Black)
+        $t = $Text
+        if ($t.Length -gt $maxLine) {
+            $t = $t.Substring(0, $maxLine)
+        } else {
+            $t = $t.PadRight($maxLine)
+        }
+        Write-Host $t -ForegroundColor $Fg -BackgroundColor $Bg
     }
-    Write-Host "================================================================================" -ForegroundColor DarkCyan
-    Write-Host "  Controls: [UP/DOWN] Navigate  |  [ENTER] Select  |  [ESC] Go Back" -ForegroundColor Yellow
-    Write-Host "--------------------------------------------------------------------------------" -ForegroundColor DarkGray
+
+    Clear-Host
+    & $writeRow ("=" * $maxLine) DarkCyan Black
+    & $writeRow "  $Title" Cyan Black
+    if ($Subtitle) {
+        foreach ($subLine in ($Subtitle -split "`n")) {
+            & $writeRow "  $($subLine.Trim())" DarkGray Black
+        }
+    }
+    & $writeRow ("=" * $maxLine) DarkCyan Black
+    & $writeRow "  Controls: [UP/DOWN] Navigate  |  [ENTER] Select  |  [ESC] Go Back" Yellow Black
+    & $writeRow ("-" * $maxLine) DarkGray Black
 
     $startRow = [Console]::CursorTop
     [Console]::CursorVisible = $false
@@ -171,46 +190,65 @@ function Show-InteractiveMenu {
             [Console]::SetCursorPosition(0, $startRow)
 
             if ($topVisible -gt 0) {
-                Write-Host "     ^^^  (More items above...)" -ForegroundColor DarkYellow
+                & $writeRow "     ▲▲▲  (More items above...)" DarkYellow Black
             } else {
-                Write-Host "                                   "
+                & $writeRow "" Gray Black
             }
 
             $limit = [Math]::Min($Items.Count, $topVisible + $PageSize)
             for ($i = $topVisible; $i -lt $limit; $i++) {
                 $it = $Items[$i]
-                $label = $it.Label
-                $desc = $it.Desc
+                $isSelected = ($i -eq $sel)
 
-                $paddedLabel = $label.PadRight(44)
-                if ($i -eq $sel) {
-                    Write-Host "  > " -NoNewline -ForegroundColor Green
-                    Write-Host " $paddedLabel " -NoNewline -ForegroundColor Black -BackgroundColor Green
-                    if ($desc) {
-                        Write-Host "  $desc" -ForegroundColor DarkGreen
-                    } else {
-                        Write-Host ""
-                    }
+                if ($isSelected) {
+                    & $writeRow "  ► $($it.Label)" Green Black
                 } else {
-                    Write-Host "    $paddedLabel" -NoNewline -ForegroundColor Gray
-                    if ($desc) {
-                        Write-Host "  $desc" -ForegroundColor DarkGray
-                    } else {
-                        Write-Host ""
-                    }
+                    & $writeRow "    $($it.Label)" Gray Black
                 }
             }
 
             $rendered = $limit - $topVisible
             for ($k = $rendered; $k -lt $PageSize; $k++) {
-                Write-Host (" " * 80)
+                & $writeRow "" Gray Black
             }
 
             if ($limit -lt $Items.Count) {
-                Write-Host "     vvv  (More items below...)" -ForegroundColor DarkYellow
+                & $writeRow "     ▼▼▼  (More items below...)" DarkYellow Black
             } else {
-                Write-Host "                                   "
+                & $writeRow "" Gray Black
             }
+
+            # Live Selected Details Box
+            & $writeRow ("-" * $maxLine) DarkGray Black
+            $curItem = $Items[$sel]
+            $curData = $curItem.Data
+
+            if ($curData -is [PSCustomObject] -and $curData.plane_id) {
+                & $writeRow "  [SELECTED MAP DETAILS]" DarkCyan Black
+                & $writeRow "  Name:     $($curData.name)" White Black
+                & $writeRow "  Plane ID: $($curData.plane_id)   |   Map Layer: $($curData.map_layer)" Cyan Black
+                & $writeRow "  Desc:     $($curData.desc)" DarkGray Black
+                & $writeRow "  Combat:   Calyx Prop 808 (Group $($curData.calyx_group_id), Inst $($curData.calyx_inst_id))" Yellow Black
+                & $writeRow "  Coords:   X: $($curData.x) | Y: $($curData.y) | Z: $($curData.z)" DarkYellow Black
+            }
+            elseif ($curData -is [PSCustomObject] -and $curData.scenes) {
+                & $writeRow "  [SELECTED WORLD DETAILS]" DarkCyan Black
+                & $writeRow "  World:    $($curData.name)" White Black
+                & $writeRow "  Total:    $($curData.scenes.Count) explorable maps available" Cyan Black
+                $previewSample = ($curData.scenes | Select-Object -First 3 | ForEach-Object { $_.name }) -join ", "
+                & $writeRow "  Preview:  $previewSample..." DarkGray Black
+                & $writeRow "" Gray Black
+                & $writeRow "" Gray Black
+            }
+            else {
+                & $writeRow "  [ACTION]" DarkCyan Black
+                & $writeRow "  Label:    $($curItem.Label)" White Black
+                & $writeRow "  Desc:     $($curItem.Desc)" DarkGray Black
+                & $writeRow "" Gray Black
+                & $writeRow "" Gray Black
+                & $writeRow "" Gray Black
+            }
+            & $writeRow ("=" * $maxLine) DarkCyan Black
 
             $key = [Console]::ReadKey($true)
             if ($key.Key -eq [ConsoleKey]::UpArrow) {
@@ -472,7 +510,7 @@ function Main {
         for ($i = 0; $i -lt $planets.Count; $i++) {
             $p = $planets[$i]
             $planetOptions += [PSCustomObject]@{
-                Label = "$($p.icon) $($p.name)"
+                Label = "$($p.icon) $($p.name)  ($($p.scenes.Count) maps)"
                 Desc = "$($p.scenes.Count) available maps"
                 Data = $p
             }
@@ -511,12 +549,12 @@ function Main {
             for ($s = 0; $s -lt $selectedPlanet.scenes.Count; $s++) {
                 $sc = $selectedPlanet.scenes[$s]
                 $sceneOptions += [PSCustomObject]@{
-                    Label = "$($s + 1). $($sc.name)"
-                    Desc = "[Plane: $($sc.plane_id)] $($sc.desc)"
+                    Label = "$($s + 1). [Plane $($sc.plane_id)] $($sc.name)"
+                    Desc = $sc.desc
                     Data = $sc
                 }
             }
-            $sceneOptions += [PSCustomObject]@{ Label = "[<-] Back to Planet Selection"; Desc = ""; Data = "back" }
+            $sceneOptions += [PSCustomObject]@{ Label = "[<-] Back to Planet Selection"; Desc = "Return to world list"; Data = "back" }
 
             $sceneSub = "Planet: $($selectedPlanet.name)`n  Select destination scene to update persistent.json:"
             $chosenSceneIdx = Show-InteractiveMenu -Title "$($selectedPlanet.icon) $($selectedPlanet.name) - Select Map" -Subtitle $sceneSub -Items $sceneOptions -InitialIndex $lastSceneIdx
