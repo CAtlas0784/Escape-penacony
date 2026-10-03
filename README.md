@@ -1,8 +1,9 @@
 # Escape Penacony Tool (ppSR Scene & Map Teleporter)
 
 An interactive, zero-hardcode CLI tool and companion utility for **ppSR** 
-Allows players and developers to easily escape Penacony and explore all planets, worlds, and maps across the game with full Calyx combat support and verified spawn coordinates!
+Allows players to easily escape Penacony and explore all maps across the game with full Calyx combat support(Just kidding it not lmao)
 
+![terminal look](./Picture.png)
 ---
 
 ## ✨ Features
@@ -14,7 +15,7 @@ Allows players and developers to easily escape Penacony and explore all planets,
   - Switch languages seamlessly on the fly with the **`[L]`** menu option or via `ppsr_config.json`.
 - **🎯 100% Ground-Truth Teleport Coordinates**:
   - Every single spawn coordinate is directly extracted from official `res.json` and `scene_config` teleporters. if it worng scene my dump tool is dumb
-  - Fixes all character floating in midair or falling into the abyss.
+  - Fixes all character floating in midair
 - **🗺️ Complete Amphoreus (World 501) & Puzzle Map Support**:
   - **Styxia / Universal Matrix Core (Plane 20461)**: Dragonbone Matrix ruins and Chimera core.
   - **Styxia - Upper Treasury & Sky Domain (Plane 20431)**: Sun/Sky and Virus CPU lighting puzzle.
@@ -25,15 +26,8 @@ Allows players and developers to easily escape Penacony and explore all planets,
   - **Aidonia (Plane 20451)**: Temple of the Muses with console era switching.
   - **Great Tomb of the Dragon (Plane 20462)**: Underworld tomb and elevator rune activation.
   - **Eye of Twilight (Plane 20481 & 20482)**: Sky Arena of Ares (Feather shrine) and Port of Twilight (Titan warship apron).
-- **🪐 Verified Maps Across All Planets**:
-  - **Astral Express**: Parlor Car, Passenger Cabin.
-  - **Herta Space Station**: Master Control Zone, Base Zone, Storage Zone, Supply Zone, Seclusion Zone.
-  - **Jarilo-VI (Belobog)**: Administrative District, Boulder Town, Outlying Snow Plains, Backwater Pass, Great Mine, Rivet Town, Robot Settlement, Silvermane Guard Restricted Zone, Corridor of Fading Echoes, Everwinter Hill, Pillars of Creation, Old Weapon Testing Ground.
-  - **Xianzhou Luofu**: Central Starskiff Haven, Exalting Sanctum, Aurum Alley Night Market, Cloudford, Stargazer Navalia, Divination Commission, Artisanship Commission, Fyxestroll Garden, Alchemy Commission, Scalegorge Waterscape, The Shackling Prison, Skysplitter.
-  - **Penacony**: Golden Hour, Dreamflux Reef, The Reverie (Reality & Dreamscape), Paperfold University, The Radiant Feldspar, A Child's Dream, Dream's Edge, Clock Studios Theme Park, Dewlight Pavilion, Scorchsand Audition Venue, Penacony Grand Theater.
-  - **4.x Future Worlds**: Astropolis (Central District, Skycall Aery, Lodestar Tower) & Planarcadia / Duomension City (14 maps).
 - **⚔️ Native Calyx Combat Support**:
-  - Spawns Calyx Prop 808 with verified group and instance IDs so combat can be triggered in any map.
+  - Spawns Calyx Prop 808 with verified group and instance IDs so combat can be triggered in any map.(maybe?)
 - **🚀 One-Click ppSR Server Restart**:
   - Automatically restarts `ppsr.exe` in its own UTF-8 console window (`chcp 65001`), eliminating encoding errors with Chinese console text.
 
