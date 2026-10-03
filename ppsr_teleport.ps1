@@ -87,6 +87,21 @@ $I18N = @{
         Goodbye             = "Thank you for using ppSR Scene & Map Teleporter! Goodbye."
         MoreItemsAbove      = "▲▲▲  (More items above...)"
         MoreItemsBelow      = "▼▼▼  (More items below...)"
+        CategoryTitle       = "Select Map Category / เลือกหมวดหมู่ / 选择分类"
+        CategorySub         = "Choose teleport mode (Combat vs Exploration):"
+        CatCombat           = "[⚔️] Combat Ready (Calyx Supported)"
+        CatCombatDesc       = "{0} maps with verified native Calyx combat in game client"
+        CatExplore          = "[🗺️] Exploration Only (Safe / No Calyx)"
+        CatExploreDesc      = "{0} maps for scenery and photos. Calyx safely hidden underground"
+        CatAll              = "[🌐] All Worlds & Maps"
+        CatAllDesc          = "{0} maps across {1} planets"
+        PlanetSelectTitle   = "Select World / Planet"
+        BadgeCombat         = "[⚔️ Calyx]"
+        BadgeExplore        = "[🗺️ Safe]"
+        CombatSupported     = "[OK] Native Calyx (Combat Ready)"
+        CombatHidden        = "[Hidden] Underground Y=-999999 (No freeze)"
+        ActionBackCat       = "[<-] Back to Category Selection"
+        ActionBackCatDesc   = "Return to category selection menu"
     }
     th = @{
         AppTitle            = "ระบบเทเลพอร์ตแผนที่ ppSR (Escape Penacony Tool)"
@@ -152,6 +167,21 @@ $I18N = @{
         Goodbye             = "ขอบคุณที่ใช้งาน ppSR Scene & Map Teleporter! แล้วพบกันใหม่ครับ"
         MoreItemsAbove      = "▲▲▲  (มีรายการด้านบนเพิ่มเติม...)"
         MoreItemsBelow      = "▼▼▼  (มีรายการด้านล่างเพิ่มเติม...)"
+        CategoryTitle       = "เลือกหมวดหมู่แผนที่ / Select Map Category / 选择分类"
+        CategorySub         = "เลือกโหมดการใช้งานแผนที่ที่ต้องการ:"
+        CatCombat           = "[⚔️] รองรับการกดสู้ Calyx (กดสู้ได้จริง ไม่ค้าง)"
+        CatCombatDesc       = "{0} แผนที่ที่มีเสา Calyx แท้ในเกม กด F เข้าหน้าต่างสู้ได้ 100%"
+        CatExplore          = "[🗺️] เดินสำรวจทั่วไป (ซ่อนเสาใต้ดิน ป้องกันเกมค้าง)"
+        CatExploreDesc      = "{0} แผนที่สำหรับเดินชมวิว ถ่ายรูป (ซ่อนเสาใต้ดิน ป้องกันเผลอกดค้าง)"
+        CatAll              = "[🌐] แผนที่ทั้งหมด (รวมทุกหมวดหมู่)"
+        CatAllDesc          = "{0} แผนที่จากทั้งหมด {1} ดวงดาว"
+        PlanetSelectTitle   = "เลือกดวงดาว / โลก"
+        BadgeCombat         = "[⚔️ เสาสู้]"
+        BadgeExplore        = "[🗺️ สำรวจ]"
+        CombatSupported     = "[OK] รองรับ 100% (กดสู้ได้จริง)"
+        CombatHidden        = "[ซ่อนใต้ดิน Y=-999999] ปลอดภัย ไม่หมุนค้าง"
+        ActionBackCat       = "[<-] ย้อนกลับไปเลือกหมวดหมู่"
+        ActionBackCatDesc   = "กลับสู่เมนูเลือกประเภทแผนที่"
     }
     zh = @{
         AppTitle            = "ppSR 场景与地图传送管理器 (Escape Penacony)"
@@ -217,6 +247,21 @@ $I18N = @{
         Goodbye             = "感谢使用 ppSR 场景地图传送管理器！再见。"
         MoreItemsAbove      = "▲▲▲  (上方还有更多地图...)"
         MoreItemsBelow      = "▼▼▼  (下方还有更多地图...)"
+        CategoryTitle       = "选择地图分类 / Select Map Category / เลือกหมวดหมู่"
+        CategorySub         = "请选择想要浏览的传送模式:"
+        CatCombat           = "[⚔️] 支持花萼对战 (原生花萼 / 不卡死)"
+        CatCombatDesc       = "{0} 个官方原生花萼场景，可按F正常开启对战"
+        CatExplore          = "[🗺️] 纯探索观景 (隐藏地下花萼 / 安全不卡死)"
+        CatExploreDesc      = "{0} 个用于观景拍照的场景，花萼沉入地底防止误触"
+        CatAll              = "[🌐] 全部宇宙地图 (完整场景列表)"
+        CatAllDesc          = "{1} 个世界共 {0} 个场景地图"
+        PlanetSelectTitle   = "选择星穹世界"
+        BadgeCombat         = "[⚔️ 可对战]"
+        BadgeExplore        = "[🗺️ 仅探索]"
+        CombatSupported     = "[OK] 原生支持 (可正常战斗)"
+        CombatHidden        = "[已隐藏于地下 Y=-999999] 安全防止卡死"
+        ActionBackCat       = "[<-] 返回分类选择"
+        ActionBackCatDesc   = "返回地图模式分类列表"
     }
 }
 
@@ -454,7 +499,13 @@ function Show-InteractiveMenuSimple {
             Write-Host "  $(T 'LabelName')$(Get-LocalizedName $curData)" -ForegroundColor White
             Write-Host "  $(T 'LabelPlane')$($curData.plane_id)   |   $(T 'LabelLayer')$($curData.map_layer)" -ForegroundColor Cyan
             Write-Host "  $(T 'LabelDesc')$(Get-LocalizedDesc $curData)" -ForegroundColor DarkGray
-            Write-Host "  $(T 'LabelCombat')Calyx Prop 808 (Group $($curData.calyx_group_id), Inst $($curData.calyx_inst_id))" -ForegroundColor Yellow
+            $calyxStatus = if ($curData.calyx_supported) {
+                "$(T 'CombatSupported') [Group $($curData.calyx_group_id), Inst $($curData.calyx_inst_id)]"
+            } else {
+                "$(T 'CombatHidden')"
+            }
+            $calyxColor = if ($curData.calyx_supported) { [ConsoleColor]::Green } else { [ConsoleColor]::DarkYellow }
+            Write-Host "  $(T 'LabelCombat')$calyxStatus" -ForegroundColor $calyxColor
             Write-Host "  $(T 'LabelCoords')X: $($curData.x) | Y: $($curData.y) | Z: $($curData.z)" -ForegroundColor DarkYellow
         }
         elseif ($curData -is [PSCustomObject] -and $curData.scenes) {
@@ -580,7 +631,13 @@ function Show-InteractiveScrollingMenu {
                 & $writeRow "  $(T 'LabelName')$(Get-LocalizedName $curData)" White Black
                 & $writeRow "  $(T 'LabelPlane')$($curData.plane_id)   |   $(T 'LabelLayer')$($curData.map_layer)" Cyan Black
                 & $writeRow "  $(T 'LabelDesc')$(Get-LocalizedDesc $curData)" DarkGray Black
-                & $writeRow "  $(T 'LabelCombat')Calyx Prop 808 (Group $($curData.calyx_group_id), Inst $($curData.calyx_inst_id))" Yellow Black
+                $calyxStatus = if ($curData.calyx_supported) {
+                    "$(T 'CombatSupported') [Group $($curData.calyx_group_id), Inst $($curData.calyx_inst_id)]"
+                } else {
+                    "$(T 'CombatHidden')"
+                }
+                $calyxColor = if ($curData.calyx_supported) { "Green" } else { "DarkYellow" }
+                & $writeRow "  $(T 'LabelCombat')$calyxStatus" $calyxColor Black
                 & $writeRow "  $(T 'LabelCoords')X: $($curData.x) | Y: $($curData.y) | Z: $($curData.z)" DarkYellow Black
             }
             elseif ($curData -is [PSCustomObject] -and $curData.scenes) {
@@ -671,14 +728,14 @@ function Apply-SceneTeleport {
         $mapLayer = if ($Scene.map_layer) { [int]$Scene.map_layer } else { 1 }
 
         # Determine calyx placement
-        $calyxX = if ($Scene.calyx_x) { [int]$Scene.calyx_x } else { $x }
-        $calyxY = if ($Scene.calyx_y) { [int]$Scene.calyx_y } else { $y }
-        $calyxZ = if ($Scene.calyx_z) { [int]$Scene.calyx_z } else { [int]($z + 1800) }
+        $calyxX = if ($null -ne $Scene.calyx_x) { [int]$Scene.calyx_x } else { $x }
+        $calyxY = if ($null -ne $Scene.calyx_y) { [int]$Scene.calyx_y } else { $y }
+        $calyxZ = if ($null -ne $Scene.calyx_z) { [int]$Scene.calyx_z } else { [int]($z + 1800) }
 
-        $calyxGroupId = if ($Scene.calyx_group_id) { [int]$Scene.calyx_group_id } else { 186 }
-        $calyxInstId = if ($Scene.calyx_inst_id) { [int]$Scene.calyx_inst_id } else { 300001 }
-        $calyxEntityId = if ($Scene.calyx_entity_id) { [int]$Scene.calyx_entity_id } else { 1337 }
-        $calyxPropId = if ($Scene.calyx_prop_id) { [int]$Scene.calyx_prop_id } else { 808 }
+        $calyxGroupId = if ($null -ne $Scene.calyx_group_id) { [int]$Scene.calyx_group_id } else { 186 }
+        $calyxInstId = if ($null -ne $Scene.calyx_inst_id) { [int]$Scene.calyx_inst_id } else { 300001 }
+        $calyxEntityId = if ($null -ne $Scene.calyx_entity_id) { [int]$Scene.calyx_entity_id } else { 1337 }
+        $calyxPropId = if ($null -ne $Scene.calyx_prop_id) { [int]$Scene.calyx_prop_id } else { 808 }
 
         # Update fields
         $data.scene.plane_id = $planeId
@@ -707,7 +764,13 @@ function Apply-SceneTeleport {
         Write-Host "  $(T 'SummaryPlane')" -NoNewline -ForegroundColor White; Write-Host $planeId -ForegroundColor Magenta
         Write-Host "  $(T 'SummaryCoords')" -NoNewline -ForegroundColor White; Write-Host "X: $x | Y: $y | Z: $z" -ForegroundColor Green
         Write-Host "  $(T 'SummaryLayer')" -NoNewline -ForegroundColor White; Write-Host $mapLayer -ForegroundColor DarkCyan
-        Write-Host "  $(T 'SummaryCalyx')" -NoNewline -ForegroundColor White; Write-Host "X: $calyxX | Y: $calyxY | Z: $calyxZ (Prop: $calyxPropId)" -ForegroundColor DarkYellow
+        $calyxSummary = if ($Scene.calyx_supported) {
+            "X: $calyxX | Y: $calyxY | Z: $calyxZ (Group $calyxGroupId, Inst $calyxInstId) $(T 'CombatSupported')"
+        } else {
+            "$(T 'CombatHidden')"
+        }
+        $calyxColor = if ($Scene.calyx_supported) { [ConsoleColor]::Green } else { [ConsoleColor]::DarkYellow }
+        Write-Host "  $(T 'SummaryCalyx')" -NoNewline -ForegroundColor White; Write-Host $calyxSummary -ForegroundColor $calyxColor
         Write-Host "  $(T 'SummaryTarget')" -NoNewline -ForegroundColor White; Write-Host $Target -ForegroundColor DarkGray
         Write-Host "  $(T 'SummaryBackup')" -NoNewline -ForegroundColor White; Write-Host $bakPath -ForegroundColor DarkGray
         Write-Host "  ----------------------------------------------------------------`n" -ForegroundColor DarkGray
@@ -851,6 +914,7 @@ function Main {
         exit 1
     }
 
+    $lastCatIdx = 0
     $lastPlanetIdx = 0
     $lastSceneIdx = 0
 
@@ -877,140 +941,213 @@ function Main {
             }
         } catch {}
 
-        # Build Planet Menu Options
-        $planetOptions = @()
-        for ($i = 0; $i -lt $planets.Count; $i++) {
-            $p = $planets[$i]
-            $pName = Get-LocalizedName $p
-            $planetOptions += [PSCustomObject]@{
-                Label = "$($p.icon) $pName  ($(T 'MapCount' @($p.scenes.Count)))"
-                Desc = (T 'MapCount' @($p.scenes.Count))
-                Data = $p
+        # Count combat vs explore maps
+        $combatCount = 0
+        $exploreCount = 0
+        $totalCount = 0
+        foreach ($p in $planets) {
+            foreach ($s in $p.scenes) {
+                $totalCount++
+                if ($s.calyx_supported) { $combatCount++ } else { $exploreCount++ }
             }
         }
-        $planetOptions += [PSCustomObject]@{ Label = (T "ActionCustom"); Desc = (T "ActionCustomDesc"); Data = "custom" }
-        $planetOptions += [PSCustomObject]@{ Label = (T "ActionLang"); Desc = (T "ActionLangDesc"); Data = "lang" }
-        $planetOptions += [PSCustomObject]@{ Label = (T "ActionRepath"); Desc = "$persistentPath"; Data = "repath" }
-        $planetOptions += [PSCustomObject]@{ Label = (T "ActionExit"); Desc = (T "ActionExitDesc"); Data = "exit" }
 
-        $subtitle = "$(T 'ActiveLabel')$currentInfo`n  $(T 'TargetLabel')$persistentPath"
-        $chosenPlanetIdx = Show-InteractiveMenu -Title (T "AppTitle") -Subtitle $subtitle -Items $planetOptions -InitialIndex $lastPlanetIdx
+        # Category Selection Menu Options
+        $catOptions = @(
+            [PSCustomObject]@{
+                Label = "$(T 'CatCombat')  ($combatCount)"
+                Desc  = (T 'CatCombatDesc' @($combatCount))
+                Data  = "combat"
+            },
+            [PSCustomObject]@{
+                Label = "$(T 'CatExplore')  ($exploreCount)"
+                Desc  = (T 'CatExploreDesc' @($exploreCount))
+                Data  = "explore"
+            },
+            [PSCustomObject]@{
+                Label = "$(T 'CatAll')  ($totalCount)"
+                Desc  = (T 'CatAllDesc' @($totalCount, $planets.Count))
+                Data  = "all"
+            },
+            [PSCustomObject]@{ Label = (T "ActionCustom"); Desc = (T "ActionCustomDesc"); Data = "custom" },
+            [PSCustomObject]@{ Label = (T "ActionLang"); Desc = (T "ActionLangDesc"); Data = "lang" },
+            [PSCustomObject]@{ Label = (T "ActionRepath"); Desc = "$persistentPath"; Data = "repath" },
+            [PSCustomObject]@{ Label = (T "ActionExit"); Desc = (T "ActionExitDesc"); Data = "exit" }
+        )
 
-        if ($chosenPlanetIdx -lt 0) {
-            # User pressed ESC
+        $catSubtitle = "$(T 'ActiveLabel')$currentInfo`n  $(T 'TargetLabel')$persistentPath"
+        $chosenCatIdx = Show-InteractiveMenu -Title (T "CategoryTitle") -Subtitle $catSubtitle -Items $catOptions -InitialIndex $lastCatIdx
+
+        if ($chosenCatIdx -lt 0) {
+            # User pressed ESC on category menu -> exit
             break
         }
-        $lastPlanetIdx = $chosenPlanetIdx
-        $chosenItem = $planetOptions[$chosenPlanetIdx]
+        $lastCatIdx = $chosenCatIdx
+        $chosenCatItem = $catOptions[$chosenCatIdx]
 
-        if ($chosenItem.Data -eq "exit") {
+        if ($chosenCatItem.Data -eq "exit") {
             break
         }
-        elseif ($chosenItem.Data -eq "lang") {
+        elseif ($chosenCatItem.Data -eq "lang") {
             Prompt-LanguageSelection
             continue
         }
-        elseif ($chosenItem.Data -eq "custom") {
+        elseif ($chosenCatItem.Data -eq "custom") {
             Prompt-CustomCoordinates -Target $persistentPath
             continue
         }
-        elseif ($chosenItem.Data -eq "repath") {
+        elseif ($chosenCatItem.Data -eq "repath") {
             $newPath = Prompt-PersistentPath
             if ($newPath) { $persistentPath = $newPath }
             continue
         }
 
-        # Selected Planet -> Show Scenes Submenu
-        $selectedPlanet = $chosenItem.Data
-        $selectedPlanetName = Get-LocalizedName $selectedPlanet
+        $filterMode = $chosenCatItem.Data # "combat", "explore", or "all"
+        $catLabel = if ($filterMode -eq "combat") { (T "CatCombat") } elseif ($filterMode -eq "explore") { (T "CatExplore") } else { (T "CatAll") }
+
+        # Submenu: Select Planet filtered by category
         while ($true) {
-            $sceneOptions = @()
-            for ($s = 0; $s -lt $selectedPlanet.scenes.Count; $s++) {
-                $sc = $selectedPlanet.scenes[$s]
-                $scName = Get-LocalizedName $sc
-                $scDesc = Get-LocalizedDesc $sc
-                $sceneOptions += [PSCustomObject]@{
-                    Label = "$($s + 1). [Plane $($sc.plane_id)] $scName"
-                    Desc = $scDesc
-                    Data = $sc
+            $filteredPlanets = @()
+            foreach ($p in $planets) {
+                $matchingScenes = @($p.scenes | Where-Object {
+                    if ($filterMode -eq "combat") { $_.calyx_supported -eq $true }
+                    elseif ($filterMode -eq "explore") { $_.calyx_supported -ne $true }
+                    else { $true }
+                })
+                if ($matchingScenes.Count -gt 0) {
+                    $filteredPlanets += [PSCustomObject]@{
+                        Planet = $p
+                        Scenes = $matchingScenes
+                    }
                 }
             }
-            $sceneOptions += [PSCustomObject]@{ Label = (T "ActionBack"); Desc = (T "ActionBackDesc"); Data = "back" }
 
-            $sceneSub = "$(T 'SummaryPlanet')$selectedPlanetName`n  $(T 'Controls')"
-            $chosenSceneIdx = Show-InteractiveMenu -Title "$($selectedPlanet.icon) $selectedPlanetName" -Subtitle $sceneSub -Items $sceneOptions -InitialIndex $lastSceneIdx
+            $planetOptions = @()
+            for ($i = 0; $i -lt $filteredPlanets.Count; $i++) {
+                $fp = $filteredPlanets[$i]
+                $pName = Get-LocalizedName $fp.Planet
+                $planetOptions += [PSCustomObject]@{
+                    Label = "$($fp.Planet.icon) $pName  ($(T 'MapCount' @($fp.Scenes.Count)))"
+                    Desc  = (T 'MapCount' @($fp.Scenes.Count))
+                    Data  = $fp
+                }
+            }
+            $planetOptions += [PSCustomObject]@{ Label = (T "ActionBackCat"); Desc = (T "ActionBackCatDesc"); Data = "back_cat" }
 
-            if ($chosenSceneIdx -lt 0) {
-                # ESC pressed -> back to planets
+            $planetSub = "$catLabel`n  $(T 'Controls')"
+            $chosenPlanetIdx = Show-InteractiveMenu -Title "$catLabel - $(T 'PlanetSelectTitle')" -Subtitle $planetSub -Items $planetOptions -InitialIndex $lastPlanetIdx
+
+            if ($chosenPlanetIdx -lt 0) {
+                # ESC pressed in planet menu -> back to category menu
                 break
             }
-            $lastSceneIdx = $chosenSceneIdx
-            $chosenSceneItem = $sceneOptions[$chosenSceneIdx]
+            $lastPlanetIdx = $chosenPlanetIdx
+            $chosenPlanetItem = $planetOptions[$chosenPlanetIdx]
 
-            if ($chosenSceneItem.Data -eq "back") {
+            if ($chosenPlanetItem.Data -eq "back_cat") {
                 break
             }
 
-            # Apply Scene Selection!
-            $selectedScene = $chosenSceneItem.Data
-            $applied = Apply-SceneTeleport -Target $persistentPath -Scene $selectedScene -PlanetName $selectedPlanetName
+            # Submenu: Select Scene
+            $selectedPlanetData = $chosenPlanetItem.Data.Planet
+            $selectedScenes = $chosenPlanetItem.Data.Scenes
+            $selectedPlanetName = Get-LocalizedName $selectedPlanetData
 
-            # Action menu after applying
-            if ($applied) {
-                Write-Host "  $(T 'NextPrompt')" -ForegroundColor Yellow
-                Write-Host "  $(T 'NextOption1')" -ForegroundColor Cyan
-                
-                # Check if ppsr.exe exists in directory or relative to persistent.json
-                $persistentDir = Split-Path -Parent $persistentPath
-                $ppsrExeCandidates = @(
-                    (Join-Path $ScriptDir "ppsr.exe"),
-                    (Join-Path $ScriptDir "..\ppsr.exe"),
-                    (Join-Path $persistentDir "..\ppsr.exe"),
-                    (Join-Path $persistentDir "ppsr.exe")
-                )
-                $ppsrExe = $null
-                foreach ($cand in $ppsrExeCandidates) {
-                    if (Test-Path $cand) { $ppsrExe = (Resolve-Path $cand).Path; break }
-                }
-                if (-not $ppsrExe) {
-                    $uProf = [Environment]::GetFolderPath([Environment+SpecialFolder]::UserProfile)
-                    if ($uProf) {
-                        $foundExe = Get-ChildItem -Path (Join-Path $uProf "Downloads") -Filter "ppsr.exe" -Recurse -Depth 4 -ErrorAction SilentlyContinue | Select-Object -First 1
-                        if ($foundExe) { $ppsrExe = $foundExe.FullName }
+            $sceneLoopDone = $false
+            while (-not $sceneLoopDone) {
+                $sceneOptions = @()
+                for ($s = 0; $s -lt $selectedScenes.Count; $s++) {
+                    $sc = $selectedScenes[$s]
+                    $scName = Get-LocalizedName $sc
+                    $scDesc = Get-LocalizedDesc $sc
+                    $badge = if ($sc.calyx_supported) { (T 'BadgeCombat') } else { (T 'BadgeExplore') }
+                    $sceneOptions += [PSCustomObject]@{
+                        Label = "$($s + 1). $badge [Plane $($sc.plane_id)] $scName"
+                        Desc  = $scDesc
+                        Data  = $sc
                     }
                 }
+                $sceneOptions += [PSCustomObject]@{ Label = (T "ActionBack"); Desc = (T "ActionBackDesc"); Data = "back" }
 
-                if ($ppsrExe) {
-                    Write-Host "  $(T 'NextOption2Server')" -ForegroundColor Green
-                    Write-Host "  $(T 'NextOption3Exit')" -ForegroundColor Gray
-                    Write-Host ""
-                    $choice = Read-Host "  $(T 'NextSelectPrompt' @('1-3'))"
-                    if ($choice -eq "2") {
-                        Write-Host "`n  $(T 'CheckingServer')" -ForegroundColor Yellow
-                        Get-Process -Name "ppsr" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
-                        Start-Sleep -Milliseconds 600
+                $sceneSub = "$(T 'SummaryPlanet')$selectedPlanetName ($catLabel)`n  $(T 'Controls')"
+                $chosenSceneIdx = Show-InteractiveMenu -Title "$($selectedPlanetData.icon) $selectedPlanetName" -Subtitle $sceneSub -Items $sceneOptions -InitialIndex $lastSceneIdx
 
-                        $ppsrDir = Split-Path -Parent $ppsrExe
-                        Write-Host "  $(T 'LaunchingServer')" -ForegroundColor Green
-                        
-                        $cmdArgs = "/k title ppSR Server & chcp 65001 >nul & set PYTHONIOENCODING=utf-8 & cd /d `"$ppsrDir`" & `"$ppsrExe`""
-                        Start-Process -FilePath "cmd.exe" -ArgumentList $cmdArgs -WorkingDirectory $ppsrDir
-                        Start-Sleep -Seconds 1
-                        exit 0
+                if ($chosenSceneIdx -lt 0) {
+                    # ESC pressed -> back to planet list
+                    break
+                }
+                $lastSceneIdx = $chosenSceneIdx
+                $chosenSceneItem = $sceneOptions[$chosenSceneIdx]
+
+                if ($chosenSceneItem.Data -eq "back") {
+                    break
+                }
+
+                # Apply Scene Selection!
+                $selectedScene = $chosenSceneItem.Data
+                $applied = Apply-SceneTeleport -Target $persistentPath -Scene $selectedScene -PlanetName $selectedPlanetName
+
+                # Action menu after applying
+                if ($applied) {
+                    Write-Host "  $(T 'NextPrompt')" -ForegroundColor Yellow
+                    Write-Host "  $(T 'NextOption1')" -ForegroundColor Cyan
+                    
+                    # Check if ppsr.exe exists in directory or relative to persistent.json
+                    $persistentDir = Split-Path -Parent $persistentPath
+                    $ppsrExeCandidates = @(
+                        (Join-Path $ScriptDir "ppsr.exe"),
+                        (Join-Path $ScriptDir "..\ppsr.exe"),
+                        (Join-Path $persistentDir "..\ppsr.exe"),
+                        (Join-Path $persistentDir "ppsr.exe")
+                    )
+                    $ppsrExe = $null
+                    foreach ($cand in $ppsrExeCandidates) {
+                        if (Test-Path $cand) { $ppsrExe = (Resolve-Path $cand).Path; break }
                     }
-                    elseif ($choice -eq "3") {
-                        exit 0
+                    if (-not $ppsrExe) {
+                        $uProf = [Environment]::GetFolderPath([Environment+SpecialFolder]::UserProfile)
+                        if ($uProf) {
+                            $foundExe = Get-ChildItem -Path (Join-Path $uProf "Downloads") -Filter "ppsr.exe" -Recurse -Depth 4 -ErrorAction SilentlyContinue | Select-Object -First 1
+                            if ($foundExe) { $ppsrExe = $foundExe.FullName }
+                        }
                     }
-                } else {
-                    Write-Host "  $(T 'NextOption2Exit')" -ForegroundColor Gray
-                    Write-Host ""
-                    $choice = Read-Host "  $(T 'NextSelectPrompt' @('1-2'))"
-                    if ($choice -eq "2") {
-                        exit 0
+
+                    if ($ppsrExe) {
+                        Write-Host "  $(T 'NextOption2Server')" -ForegroundColor Green
+                        Write-Host "  $(T 'NextOption3Exit')" -ForegroundColor Gray
+                        Write-Host ""
+                        $choice = Read-Host "  $(T 'NextSelectPrompt' @('1-3'))"
+                        if ($choice -eq "2") {
+                            Write-Host "`n  $(T 'CheckingServer')" -ForegroundColor Yellow
+                            Get-Process -Name "ppsr" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+                            Start-Sleep -Milliseconds 600
+
+                            $ppsrDir = Split-Path -Parent $ppsrExe
+                            Write-Host "  $(T 'LaunchingServer')" -ForegroundColor Green
+                            
+                            $cmdArgs = "/k title ppSR Server & chcp 65001 >nul & set PYTHONIOENCODING=utf-8 & cd /d `"$ppsrDir`" & `"$ppsrExe`""
+                            Start-Process -FilePath "cmd.exe" -ArgumentList $cmdArgs -WorkingDirectory $ppsrDir
+                            Start-Sleep -Seconds 1
+                            exit 0
+                        }
+                        elseif ($choice -eq "3") {
+                            exit 0
+                        }
+                    } else {
+                        Write-Host "  $(T 'NextOption2Exit')" -ForegroundColor Gray
+                        Write-Host ""
+                        $choice = Read-Host "  $(T 'NextSelectPrompt' @('1-2'))"
+                        if ($choice -eq "2") {
+                            exit 0
+                        }
                     }
                 }
+                $sceneLoopDone = $true
+                break
             }
-            break
+            if ($sceneLoopDone) {
+                break
+            }
         }
     }
 

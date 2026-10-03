@@ -1,8 +1,10 @@
 {
   "version": "4.6.5X-MASTER-LOCALIZED",
-  "updated_at": "2026-10-03",
+  "updated_at": "2026-10-04",
   "total_worlds": 8,
   "total_scenes": 85,
+  "total_combat_scenes": 16,
+  "total_explore_scenes": 69,
   "planets": [
     {
       "id": "astral_express",
@@ -24,12 +26,13 @@
           "desc_th": "ตู้โดยสารหลัก ล็อบบี้กลางขบวน พร้อม Pom-Pom และเครื่องเล่นแผ่นเสียง",
           "desc_zh": "列车主控观景大厅，帕姆与留声机所在车厢",
           "calyx_x": 216,
-          "calyx_y": 0,
-          "calyx_z": 24570,
+          "calyx_y": -999999,
+          "calyx_z": 22770,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Party Car (Passenger Cabin)",
@@ -44,12 +47,13 @@
           "desc_th": "ห้องนอนส่วนตัวของผู้บุกเบิกและทางเดินห้องพักผู้โดยสาร",
           "desc_zh": "开拓者专属客房与乘客休息走廊",
           "calyx_x": -4785,
-          "calyx_y": 15000,
-          "calyx_z": 59600,
+          "calyx_y": -999999,
+          "calyx_z": 57800,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         }
       ]
     },
@@ -73,12 +77,13 @@
           "desc_th": "สะพานบัญชาการหลัก ศูนย์กลางสั่งการของ Asta และทางเข้าห้องทำงานของ Herta",
           "desc_zh": "总指挥大桥，艾丝妲驻守指挥所及黑塔办公室入口",
           "calyx_x": -53121,
-          "calyx_y": 4912,
-          "calyx_z": -56263,
+          "calyx_y": -999999,
+          "calyx_z": -58063,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Base Zone",
@@ -93,12 +98,13 @@
           "desc_th": "โถงต้อนรับ ประตูคัดกรองความปลอดภัย และศูนย์พยาบาล",
           "desc_zh": "接待大厅、安检隔离闸口与医疗观察区",
           "calyx_x": -15123,
-          "calyx_y": 147,
-          "calyx_z": 127644,
+          "calyx_y": -999999,
+          "calyx_z": 125844,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Storage Zone",
@@ -113,12 +119,13 @@
           "desc_th": "ห้องจัดแสดงวัตถุหายาก Curio และแคปซูลกักกันตัวอย่างสิ่งมีชีวิตพิเศษ",
           "desc_zh": "奇物陈列馆与特殊样本收容实验间",
           "calyx_x": 38130,
-          "calyx_y": 3444,
-          "calyx_z": -112140,
+          "calyx_y": -999999,
+          "calyx_z": -113940,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Supply Zone",
@@ -133,12 +140,13 @@
           "desc_th": "ชานชาลารถไฟ อู่ซ่อมบำรุง และสถานีแกนพลังงานหลัก",
           "desc_zh": "星轨月台、检修列车车库与能源中枢站",
           "calyx_x": 4560,
-          "calyx_y": 79626,
-          "calyx_z": 101100,
+          "calyx_y": -999999,
+          "calyx_z": 99300,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Seclusion Zone",
@@ -153,12 +161,13 @@
           "desc_th": "ห้องเพาะเลี้ยงชีวภาพลับของ Ruan Mei และชั้นทดลองใต้พิภพ",
           "desc_zh": "阮·梅绝密生命孵化培育温室与深层试验场",
           "calyx_x": 7320,
-          "calyx_y": 412082,
-          "calyx_z": 300,
+          "calyx_y": -999999,
+          "calyx_z": -1500,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         }
       ]
     },
@@ -182,12 +191,13 @@
           "desc_th": "จัตุรัสกลางเมือง Belobog โรงแรม Goethe และป้อมปราการ Qlipoth Fort",
           "desc_zh": "贝洛伯格中央行政广场、歌德大饭店与克里珀堡",
           "calyx_x": -10138,
-          "calyx_y": 10,
-          "calyx_z": 80698,
+          "calyx_y": -999999,
+          "calyx_z": 78898,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Boulder Town (Underworld)",
@@ -202,12 +212,13 @@
           "desc_th": "สลัมใต้พิภพ คลับต่อยมวย Fight Club และคลินิกคุณหมอ Natasha",
           "desc_zh": "下层区中心城镇、搏击俱乐部与娜塔莎诊所",
           "calyx_x": -15390,
-          "calyx_y": -617,
-          "calyx_z": 59120,
+          "calyx_y": -999999,
+          "calyx_z": 57320,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Outlying Snow Plains",
@@ -227,7 +238,8 @@
           "calyx_group_id": 56,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Backwater Pass",
@@ -247,7 +259,8 @@
           "calyx_group_id": 26,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Great Mine",
@@ -267,7 +280,8 @@
           "calyx_group_id": 50,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Rivet Town",
@@ -282,12 +296,13 @@
           "desc_th": "เมืองเก่าใต้พิภพที่พังทลายและบ้านเด็กกำพร้า",
           "desc_zh": "下层区废墟小镇与旧孤儿院故址",
           "calyx_x": -34650,
-          "calyx_y": -130,
-          "calyx_z": 37370,
+          "calyx_y": -999999,
+          "calyx_z": 35570,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Robot Settlement",
@@ -302,12 +317,13 @@
           "desc_th": "วังหุ่นยนต์ของ Svarog และลานเศษซากจักรกล",
           "desc_zh": "史瓦罗统御的机械聚落据点与垃圾回收区",
           "calyx_x": -9930,
-          "calyx_y": 25392,
-          "calyx_z": 82380,
+          "calyx_y": -999999,
+          "calyx_z": 80580,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Silvermane Guard Restricted Zone",
@@ -322,12 +338,13 @@
           "desc_th": "ป้อมปราการแนวรบทางทหารและค่ายคูด่านกั้น",
           "desc_zh": "银鬃铁卫前线军事据点与防御战壕工事",
           "calyx_x": 116730,
-          "calyx_y": 2007,
-          "calyx_z": -91530,
+          "calyx_y": -999999,
+          "calyx_z": -93330,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Corridor of Fading Echoes",
@@ -342,12 +359,13 @@
           "desc_th": "ถนนทหารที่พังทลาย ซากปรักหักพังของโบสถ์เก่า",
           "desc_zh": "旧卫城要塞废墟与残破大教堂街道",
           "calyx_x": 5600,
-          "calyx_y": 3900,
-          "calyx_z": 258000,
+          "calyx_y": -999999,
+          "calyx_z": 256200,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Everwinter Hill",
@@ -362,12 +380,13 @@
           "desc_th": "จุดสูงสุดยอดเขา Cocolia Boss และซากเครื่องจักร Engine of Creation",
           "desc_zh": "可可利亚决战山巅平台与造物引擎核心遗迹",
           "calyx_x": -149280,
-          "calyx_y": -6772,
-          "calyx_z": -50930,
+          "calyx_y": -999999,
+          "calyx_z": -52730,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Pillars of Creation",
@@ -382,12 +401,13 @@
           "desc_th": "จุดชมวิวการบูรณะซ่อมแซม Engine of Creation",
           "desc_zh": "造物引擎修缮工程前线观景台",
           "calyx_x": -52104,
-          "calyx_y": 3905,
-          "calyx_z": 54685,
+          "calyx_y": -999999,
+          "calyx_z": 52885,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Old Weapon Testing Ground",
@@ -402,12 +422,13 @@
           "desc_th": "ลานประลองทัวร์นาเมนต์ Aetherium Wars",
           "desc_zh": "以太战线对决锦标赛擂台竞技场",
           "calyx_x": -3368,
-          "calyx_y": 10777,
-          "calyx_z": 47881,
+          "calyx_y": -999999,
+          "calyx_z": 46081,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         }
       ]
     },
@@ -431,12 +452,13 @@
           "desc_th": "ท่าเทียบเรือลอยฟ้าหลัก กรมการเกษตร และคลองพระราชวัง",
           "desc_zh": "核心客运商贸码头、地衡司与王府碧波河道",
           "calyx_x": 21417,
-          "calyx_y": 5994,
-          "calyx_z": -26594,
+          "calyx_y": -999999,
+          "calyx_z": -28394,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Exalting Sanctum",
@@ -451,12 +473,13 @@
           "desc_th": "ย่านวัฒนธรรมพลเรือน จัตุรัสการค้า และศาลา Realm-Keeping",
           "desc_zh": "凡尘居民繁华街区与神策府近邻聚落",
           "calyx_x": 9500,
-          "calyx_y": -3486,
-          "calyx_z": -20700,
+          "calyx_y": -999999,
+          "calyx_z": -22500,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Aurum Alley (Commercial Night Market)",
@@ -471,12 +494,13 @@
           "desc_th": "ตลาดกลางคืนอันคึกคัก แผงอาหารริมทาง และท่าเทียบสินค้า",
           "desc_zh": "古色古香的夜市商肆、风味小吃街与旧集市码头",
           "calyx_x": -59880,
-          "calyx_y": -2037,
-          "calyx_z": -66000,
+          "calyx_y": -999999,
+          "calyx_z": -67800,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Cloudford",
@@ -496,7 +520,8 @@
           "calyx_group_id": 234,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Stargazer Navalia",
@@ -511,12 +536,13 @@
           "desc_th": "อู่ต่อเรือเหาะ อู่ประกอบดาวลอยฟ้า และเตาหลอมจักรกล",
           "desc_zh": "星槎造船厂、龙骨船坞组装泊位与锻造裂口",
           "calyx_x": 133300,
-          "calyx_y": 8008,
-          "calyx_z": 394,
+          "calyx_y": -999999,
+          "calyx_z": -1406,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Divination Commission",
@@ -536,7 +562,8 @@
           "calyx_group_id": 215,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Artisanship Commission",
@@ -556,7 +583,8 @@
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Fyxestroll Garden",
@@ -571,12 +599,13 @@
           "desc_th": "ป่าไผ่สิงสู่ หอคอยสะกดปีศาจ Heliobus และทะเลสาบสายหมอก",
           "desc_zh": "岁阳镇妖塔、幽冥翠竹林与降妖镇灵古园",
           "calyx_x": -1363,
-          "calyx_y": -9077,
-          "calyx_z": -27700,
+          "calyx_y": -999999,
+          "calyx_z": -29500,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Alchemy Commission",
@@ -591,12 +620,13 @@
           "desc_th": "ศาลาวิจัยยาอายุวัฒนะ คลินิกรักษาโรค และท่าเรือมังกร",
           "desc_zh": "长生不老丹药研究阁、百草医馆与渡海栈桥",
           "calyx_x": 79710,
-          "calyx_y": 69528,
-          "calyx_z": -245720,
+          "calyx_y": -999999,
+          "calyx_z": -247520,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Scalegorge Waterscape",
@@ -611,12 +641,13 @@
           "desc_th": "ทะเลแยกศักดิ์สิทธิ์ อนุสาวรีย์ Lunarescent และรากไม้ Ambrosial Arbor",
           "desc_zh": "持明古海开海奇观、月晷丰饶玄根祭坛",
           "calyx_x": -124370,
-          "calyx_y": 11839,
-          "calyx_z": 6850,
+          "calyx_y": -999999,
+          "calyx_z": 5050,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "The Shackling Prison",
@@ -631,12 +662,13 @@
           "desc_th": "คุกใต้พิภพความมั่นคงสูงสุดที่คุมขังหัวหน้าเผ่า Borisin",
           "desc_zh": "深渊重罪黑牢、步离人战首封印禁地",
           "calyx_x": -176680,
-          "calyx_y": 199270,
-          "calyx_z": 7200,
+          "calyx_y": -999999,
+          "calyx_z": 5400,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Skysplitter (The Wardance Arena)",
@@ -651,12 +683,13 @@
           "desc_th": "เรือรบประจัญบานลอยฟ้ายักษ์ ลานประลองพิธีประลองยุทธ์ Wardance",
           "desc_zh": "演武仪典擂台巨型战舰、八方豪杰比武场",
           "calyx_x": 48950,
-          "calyx_y": -41002,
-          "calyx_z": 64240,
+          "calyx_y": -999999,
+          "calyx_z": 62440,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         }
       ]
     },
@@ -680,12 +713,13 @@
           "desc_th": "มหานครแสงนีออน น้ำพุ SoulGlad และห้างสรรพสินค้าแห่งความสุข",
           "desc_zh": "霓虹璀璨的欢庆不夜城，苏乐达喷泉与商厦",
           "calyx_x": 0,
-          "calyx_y": -14383,
-          "calyx_z": 46019,
+          "calyx_y": -999999,
+          "calyx_z": 44219,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Dreamflux Reef (Underground Refuge)",
@@ -700,12 +734,13 @@
           "desc_th": "ทะเลความทรงจำใต้พิภพ แดนหลับใหล และที่หลบภัยของ Mikhail",
           "desc_zh": "梦境深潜记忆之海、无梦者睡乡与米哈伊尔避难所",
           "calyx_x": 780,
-          "calyx_y": -153008,
-          "calyx_z": -619650,
+          "calyx_y": -999999,
+          "calyx_z": -621450,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "The Reverie (Reality Hotel)",
@@ -720,12 +755,13 @@
           "desc_th": "โรงแรมหรูในโลกแห่งความจริง ล็อบบี้ต้อนรับ และห้องสูท VIP",
           "desc_zh": "星际豪华大酒店现实实体，VIP接待贵宾厅",
           "calyx_x": 197,
-          "calyx_y": 1547,
-          "calyx_z": -378208,
+          "calyx_y": -999999,
+          "calyx_z": -380008,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Penacony Paperfold University College",
@@ -740,12 +776,13 @@
           "desc_th": "วิทยาเขตสถาบันการศึกษาในแดนฝัน หอประชุม และเวทีดนตรี",
           "desc_zh": "梦境折纸学术学府校区、阶梯讲堂与音符摇滚广场",
           "calyx_x": 0,
-          "calyx_y": 4903,
-          "calyx_z": 27800,
+          "calyx_y": -999999,
+          "calyx_z": 26000,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "The Radiant Feldspar (Trailblaze-Stern)",
@@ -760,12 +797,13 @@
           "desc_th": "เรือเหาะลอยฟ้าระดับหรูหรา บินชมทิวทัศน์มหาสมุทรแห่งความฝัน",
           "desc_zh": "巡航梦境海洋的超级豪华浮空飞艇",
           "calyx_x": -153,
-          "calyx_y": 1099,
-          "calyx_z": -89364,
+          "calyx_y": -999999,
+          "calyx_z": -91164,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "The Reverie (Dreamscape Hotel)",
@@ -785,7 +823,8 @@
           "calyx_group_id": 303,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "A Child's Dream",
@@ -805,7 +844,8 @@
           "calyx_group_id": 219,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Dream's Edge (Combat Rooftop)",
@@ -825,7 +865,8 @@
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Clock Studios Theme Park",
@@ -840,12 +881,13 @@
           "desc_th": "ศูนย์รวมความบันเทิงการ์ตูน Clockie โรงฉายภาพยนตร์ และกองถ่ายหนัง",
           "desc_zh": "钟表小子动画制片厂主题游乐园与放映场",
           "calyx_x": 114380,
-          "calyx_y": 47134,
-          "calyx_z": 8130,
+          "calyx_y": -999999,
+          "calyx_z": 6330,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Dewlight Pavilion",
@@ -860,12 +902,13 @@
           "desc_th": "คฤหาสน์การทูตของตระกูล The Family และห้องโมเดลจำลองเมืองของ Sunday",
           "desc_zh": "家族五大家系议事公馆与星期日微缩沙盘室",
           "calyx_x": -1037,
-          "calyx_y": 95000,
-          "calyx_z": -32325,
+          "calyx_y": -999999,
+          "calyx_z": -34125,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "SoulGlad Scorchsand Audition Venue",
@@ -880,12 +923,13 @@
           "desc_th": "สังเวียนประลองคนเก่ง ลานท้าทายยิงเป้า และโคลอสเซียมทะเลทราย",
           "desc_zh": "狂热热砂海选大竞技场、决斗舞台与狂欢关卡",
           "calyx_x": -53,
-          "calyx_y": 1706,
-          "calyx_z": -30320,
+          "calyx_y": -999999,
+          "calyx_z": -32120,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Penacony Grand Theater",
@@ -900,12 +944,13 @@
           "desc_th": "โรงอุปรากรอันยิ่งใหญ่ สถานที่ตัดสินชะตาระหว่าง Order และ Harmony",
           "desc_zh": "宏伟绝伦的梦境大剧院，秩序与同谐终极对决舞台",
           "calyx_x": 150,
-          "calyx_y": 11551,
-          "calyx_z": 2230,
+          "calyx_y": -999999,
+          "calyx_z": 430,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         }
       ]
     },
@@ -929,12 +974,13 @@
           "desc_th": "มหานครศักดิ์สิทธิ์ ระเบียงเสาหิน ตลาดการค้า และลานสภาประชาชน",
           "desc_zh": "永恒圣城首都卫城、神圣列柱走廊与市民集会广场",
           "calyx_x": 89730,
-          "calyx_y": -6120,
-          "calyx_z": -490660,
+          "calyx_y": -999999,
+          "calyx_z": -492460,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Okhema - Vortex of Genesis",
@@ -949,12 +995,13 @@
           "desc_th": "น้ำพุวังวนศักดิ์สิทธิ์ แหล่งรวมสายน้ำบริสุทธิ์แห่งปฐมกาล",
           "desc_zh": "神圣创生泉眼漩涡，汇聚天地圣水之地",
           "calyx_x": 14,
-          "calyx_y": 948,
-          "calyx_z": -36160,
+          "calyx_y": -999999,
+          "calyx_z": -37960,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Okhema - Holy Acropolis Sky Bridge",
@@ -969,12 +1016,13 @@
           "desc_th": "สะพานลอยฟ้ามุมสูง ทอดมองข้ามหุบเขาศักดิ์สิทธิ์อันรุ่งโรจน์",
           "desc_zh": "高空卫城凌云连桥，俯瞰辉煌圣谷全景",
           "calyx_x": 240,
-          "calyx_y": 27786,
-          "calyx_z": -822770,
+          "calyx_y": -999999,
+          "calyx_z": -824570,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Okhema - Lower Sunken Valley",
@@ -989,12 +1037,13 @@
           "desc_th": "สวนระเบียงหินใต้ดิน ทอดตัวอยู่เบื้องล่างวิหารลอยฟ้า",
           "desc_zh": "宏伟卫城下方的沉降式梯田幽谷花庭",
           "calyx_x": 89730,
-          "calyx_y": -6120,
-          "calyx_z": -490660,
+          "calyx_y": -999999,
+          "calyx_z": -492460,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Okhema - Beyond Time: An Eternal Page",
@@ -1009,12 +1058,13 @@
           "desc_th": "หอสมุดสวรรค์เหนือกาลเวลา เก็บรักษาบันทึกหน้าพยากรณ์นิรันดร์",
           "desc_zh": "超越时光之流的永恒圣殿卷轴室",
           "calyx_x": 466272,
-          "calyx_y": 164890,
-          "calyx_z": 51031,
+          "calyx_y": -999999,
+          "calyx_z": 49231,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Castrum Kremnos - Aedes Elysiae (Bathhouse)",
@@ -1029,12 +1079,13 @@
           "desc_th": "โรงอาบน้ำศักดิ์สิทธิ์แห่งทวยเทพ สระแร่ธรรมชาติหลั่งริน",
           "desc_zh": "众神静谧神圣浴场，跌水温泉台苑",
           "calyx_x": -37317,
-          "calyx_y": -12212,
-          "calyx_z": 13724,
+          "calyx_y": -999999,
+          "calyx_z": 11924,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Castrum Kremnos - Temple of the Titans",
@@ -1054,7 +1105,8 @@
           "calyx_group_id": 294,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Castrum Kremnos - Hall of Prophecy [Dawn State]",
@@ -1069,12 +1121,13 @@
           "desc_th": "โถงสภาไททัน อาบด้วยแสงอาทิตย์รุ่งอรุณสีทองอร่าม",
           "desc_zh": "破晓曦光笼罩下的泰坦预言议政大殿",
           "calyx_x": -83587,
-          "calyx_y": 8598,
-          "calyx_z": -46632,
+          "calyx_y": -999999,
+          "calyx_z": -48432,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Castrum Kremnos - Hall of Prophecy [Evernight State]",
@@ -1089,12 +1142,13 @@
           "desc_th": "โถงสภาไททัน ท่ามกลางราตรีกาล ดวงดาวส่องประกายและเงาจันทร์",
           "desc_zh": "星宿流转之永夜月影泰坦预言议政殿",
           "calyx_x": -83587,
-          "calyx_y": 8598,
-          "calyx_z": -46632,
+          "calyx_y": -999999,
+          "calyx_z": -48432,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Castrum Kremnos - Catacombs [Day/Night Statue Puzzle]",
@@ -1109,12 +1163,13 @@
           "desc_th": "สุสานใต้ดินโบราณ มีกลไกปริศนาหมุนรูปปั้นสลับกลางวัน/กลางคืน",
           "desc_zh": "幽暗地下回廊，包含昼夜雕像机关朝向解谜",
           "calyx_x": -281,
-          "calyx_y": 26806,
-          "calyx_z": -465700,
+          "calyx_y": -999999,
+          "calyx_z": -467500,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Janusopolis - Sacred Colonnade Terrace [Dawn]",
@@ -1134,7 +1189,8 @@
           "calyx_group_id": 237,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Janusopolis - Sacred Colonnade Terrace [Evernight]",
@@ -1154,7 +1210,8 @@
           "calyx_group_id": 237,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Grove of Epiphany - Sunken Grove [Dawn]",
@@ -1174,7 +1231,8 @@
           "calyx_group_id": 211,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Grove of Epiphany - Sunken Grove [Evernight]",
@@ -1194,7 +1252,8 @@
           "calyx_group_id": 211,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Janusopolis - Grand Hall of Fate [Era Flipper Puzzle]",
@@ -1209,12 +1268,13 @@
           "desc_th": "วิหารใหญ่แห่งโชคชะตา มีกลไกปริศนาหักเหแสง Era Flipper",
           "desc_zh": "宿命大圣堂，搭载光束引导翻转纪元镜面机关",
           "calyx_x": -600,
-          "calyx_y": -36,
-          "calyx_z": 6039,
+          "calyx_y": -999999,
+          "calyx_z": 4239,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Styxia - Upper Treasury & Sky Domain [Sun/Sky Puzzle]",
@@ -1229,12 +1289,13 @@
           "desc_th": "ดินแดนสวรรค์ชั้นบน แกนกลางไวรัส CPU และปริศนาแสงตะวัน/ท้องฟ้า",
           "desc_zh": "高空云端神殿、清除病毒CPU运算机房与天象光影谜题",
           "calyx_x": 5,
-          "calyx_y": -45838,
-          "calyx_z": -254408,
+          "calyx_y": -999999,
+          "calyx_z": -256208,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Styxia - Tartarus Abyss & River of Souls [Compass & Plates]",
@@ -1249,12 +1310,13 @@
           "desc_th": "เหวลึกใต้พิภพ มีแท่นหินลอยได้และปริศนาหมุนเข็มทิศข้ามแม่น้ำวิญญาณ",
           "desc_zh": "幽暗深渊绝壁，包含浮空踏板平台与冥河罗盘机关",
           "calyx_x": -3,
-          "calyx_y": -46690,
-          "calyx_z": -150773,
+          "calyx_y": -999999,
+          "calyx_z": -152573,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Styxia - Warbling Shores [Watergate Port & Time Lock]",
@@ -1269,12 +1331,13 @@
           "desc_th": "ท่าเรือประตูกั้นน้ำริมฝั่ง ปกป้องด้วยกลไกปริศนากุญแจเวลาโบราณ",
           "desc_zh": "滨海水门港口，设有防线古老时光锁封印机制",
           "calyx_x": -2655,
-          "calyx_y": 889049,
-          "calyx_z": 1001178,
+          "calyx_y": -999999,
+          "calyx_z": 999378,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Aidonia - Temple of the Muses [Console Era Switch]",
@@ -1289,12 +1352,13 @@
           "desc_th": "วิหารยอดเขาหิมะ มีคอนโซลควบคุมสลับยุคสมัยในอดีตและปัจจุบัน",
           "desc_zh": "雪覆群峰之巅缪斯圣殿，拥有操纵时空的纪元控制台",
           "calyx_x": 435960,
-          "calyx_y": 56842,
-          "calyx_z": 144540,
+          "calyx_y": -999999,
+          "calyx_z": 142740,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Styxia / Universal Matrix - Dragonbone Matrix Core",
@@ -1308,13 +1372,14 @@
           "desc": "Dragonbone ruins and Universal Matrix central chimera sanctum",
           "desc_th": "ซากมังกรโบราณและห้องแกนกลางเมทริกซ์ พร้อมสิ่งมีชีวิตสังเคราะห์ Chimera",
           "desc_zh": "远古龙骨遗迹与全知母阵奇美拉培育核心神殿",
-          "calyx_x": 14718,
-          "calyx_y": 393578,
-          "calyx_z": 310229,
+          "calyx_x": 12080,
+          "calyx_y": -999999,
+          "calyx_z": 322230,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Great Tomb of the Dragon - Underworld Tomb [Elevator Runes]",
@@ -1329,12 +1394,13 @@
           "desc_th": "สุสานใต้พิภพของจักรพรรดิมังกร มีกลไกลิฟต์ไขปริศนาอักษรรูน",
           "desc_zh": "深邃幽冥巨龙陵墓地宫，设有升降梯符文激活解谜",
           "calyx_x": 371,
-          "calyx_y": -114970,
-          "calyx_z": -564286,
+          "calyx_y": -999999,
+          "calyx_z": -566086,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Eye of Twilight - Sky Arena of Ares [Feather Shrine]",
@@ -1349,12 +1415,13 @@
           "desc_th": "ลานประลองบนฟากฟ้า อุทิศแด่เทพแอรีสและศาลเจ้าขนนกเวหา",
           "desc_zh": "阿瑞斯高空悬浮角斗战场，守护暮光神羽之古老祭坛",
           "calyx_x": 14790,
-          "calyx_y": 642038,
-          "calyx_z": -624010,
+          "calyx_y": -999999,
+          "calyx_z": -625810,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Eye of Twilight - Port of Twilight [Warship Apron]",
@@ -1369,12 +1436,13 @@
           "desc_th": "ลานจอดเรือรบไททันและท่าเทียบเรือลอยฟ้า เหนือห้วงอวกาศอันเวิ้งว้าง",
           "desc_zh": "俯瞰虚空深渊的泰坦巨型战舰起落机坪与港湾",
           "calyx_x": 711195,
-          "calyx_y": -93915,
-          "calyx_z": -652051,
+          "calyx_y": -999999,
+          "calyx_z": -653851,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         }
       ]
     },
@@ -1398,12 +1466,13 @@
           "desc_th": "จัตุรัสกลางเมืองสไตล์ไซเบอร์พังก์และสะพานลอยฟ้าเชื่อมตึกระฟ้า",
           "desc_zh": "庞大的赛博朋克星界都市中央广场与立体天桥",
           "calyx_x": -51058,
-          "calyx_y": -565500,
-          "calyx_z": -486334,
+          "calyx_y": -999999,
+          "calyx_z": -488134,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Skycall Aery",
@@ -1418,12 +1487,13 @@
           "desc_th": "อู่จอดยานบินระดับความสูงสูงและลานสังเกตการณ์ขอบฟ้า",
           "desc_zh": "超高空飞行器停泊机库与全景天际观察台",
           "calyx_x": 0,
-          "calyx_y": 505,
-          "calyx_z": -34130,
+          "calyx_y": -999999,
+          "calyx_z": -35930,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Lodestar Tower",
@@ -1438,12 +1508,13 @@
           "desc_th": "ตึกระฟ้ายักษ์ใหญ่ขององค์กรและศูนย์กลางการคมนาคมขนส่ง",
           "desc_zh": "超巨型跨星系企业摩天巨塔与垂直交通中枢",
           "calyx_x": 0,
-          "calyx_y": -215350,
-          "calyx_z": 261320,
+          "calyx_y": -999999,
+          "calyx_z": 259520,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Starpoint Ship",
@@ -1458,12 +1529,13 @@
           "desc_th": "สถานีเรือข้ามฟากดวงดาวและท่าเทียบรับส่งผู้โดยสาร",
           "desc_zh": "星际渡轮中转客运大站",
           "calyx_x": -79525,
-          "calyx_y": 72830,
-          "calyx_z": 319469,
-          "calyx_group_id": 66,
+          "calyx_y": -999999,
+          "calyx_z": 317669,
+          "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Fleeting Joy",
@@ -1478,12 +1550,13 @@
           "desc_th": "บาร์สังสรรค์ที่ความโศกเศร้าและความสุขผสมผสานกัน",
           "desc_zh": "悲欢交织的浮生酒吧",
           "calyx_x": -743,
-          "calyx_y": 2435,
-          "calyx_z": -62837,
-          "calyx_group_id": 67,
+          "calyx_y": -999999,
+          "calyx_z": -64637,
+          "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         }
       ]
     },
@@ -1507,12 +1580,13 @@
           "desc_th": "ศูนย์กลางการอยู่อาศัยและการค้าหลายมิติ",
           "desc_zh": "多维空间交互的主城居民生活区与繁华商业街",
           "calyx_x": 95660,
-          "calyx_y": 19175,
-          "calyx_z": -14660,
+          "calyx_y": -999999,
+          "calyx_z": -16460,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Phantasmoon Courtyard",
@@ -1527,12 +1601,13 @@
           "desc_th": "สวนแห่งดวงจันทร์มายา ลานกว้างข้ามมิติอันเงียบสงบ",
           "desc_zh": "幽蓝月光静洒之空间庭院避风港",
           "calyx_x": 5770,
-          "calyx_y": 92,
-          "calyx_z": 30730,
+          "calyx_y": -999999,
+          "calyx_z": 28930,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Seafeld City",
@@ -1547,12 +1622,13 @@
           "desc_th": "เมืองท่าแห่งอนาคตริมชายฝั่ง มองเห็นมหาสมุทรดิจิทัล",
           "desc_zh": "俯瞰数字极光海洋的未来沿海滨海大都会",
           "calyx_x": -693530,
-          "calyx_y": 15046,
-          "calyx_z": 40400,
+          "calyx_y": -999999,
+          "calyx_z": 38600,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Graphia Academy",
@@ -1572,7 +1648,8 @@
           "calyx_group_id": 324,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Duomension Outer Border",
@@ -1587,12 +1664,13 @@
           "desc_th": "พื้นที่ชายแดนที่ความจริงของมิติต่างๆ เริ่มแตกสลาย",
           "desc_zh": "空间现实出现断裂异变的城市防卫外围边陲",
           "calyx_x": -10888,
-          "calyx_y": 9815,
-          "calyx_z": 13096,
+          "calyx_y": -999999,
+          "calyx_z": 11296,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Dovebrook District",
@@ -1612,7 +1690,8 @@
           "calyx_group_id": 237,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": true
         },
         {
           "name": "Lookout Cloud Station",
@@ -1627,12 +1706,13 @@
           "desc_th": "ชุมทางรถไฟบรรยากาศสูงและชานชาลาเหนือหมู่เมฆ",
           "desc_zh": "云层之上的磁悬浮铁路换乘中转大站",
           "calyx_x": -88818,
-          "calyx_y": -14785,
-          "calyx_z": 1832,
+          "calyx_y": -999999,
+          "calyx_z": 32,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Neon Skylines",
@@ -1647,12 +1727,13 @@
           "desc_th": "ทางหลวงดาดฟ้าเชื่อมตึกและยอดแหลมที่ส่องประกายนีออน",
           "desc_zh": "高耸入云之穿梭高架车道与极光霓虹尖塔",
           "calyx_x": 0,
-          "calyx_y": 0,
-          "calyx_z": 1800,
+          "calyx_y": -999999,
+          "calyx_z": 0,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Pearluxe Tower",
@@ -1667,12 +1748,13 @@
           "desc_th": "ตึกระฟ้าคอนโดมิเนียมหรูหราและสำนักงานผู้บริหาร",
           "desc_zh": "顶级豪华空中公馆与商务行政高塔",
           "calyx_x": -203880,
-          "calyx_y": -16966,
-          "calyx_z": -106670,
+          "calyx_y": -999999,
+          "calyx_z": -108470,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Pearl's Studio",
@@ -1687,12 +1769,13 @@
           "desc_th": "สตูดิโอออกแบบแอนิเมชันและโฮโลแกรมส่วนตัว",
           "desc_zh": "私人全息投影设计与创意手作工坊",
           "calyx_x": -86030,
-          "calyx_y": -15564,
-          "calyx_z": -74270,
+          "calyx_y": -999999,
+          "calyx_z": -76070,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Seafeld TV Tower",
@@ -1707,12 +1790,13 @@
           "desc_th": "หอคอยกระจายเสียงและส่งสัญญาณ มองเห็นวิวทิวทัศน์ Seafeld รอบทิศ",
           "desc_zh": "广播电视发射主塔，饱览海菲尔德全境海湾盛景",
           "calyx_x": -363,
-          "calyx_y": 115600,
-          "calyx_z": -41720,
+          "calyx_y": -999999,
+          "calyx_z": -43520,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Inkford Hermitage",
@@ -1727,12 +1811,13 @@
           "desc_th": "สถานที่พักผ่อนอันเงียบสงบซ่อนตัวอยู่ในป่าไผ่ดิจิทัล",
           "desc_zh": "隐藏在虚拟数字翠竹林中的清幽隐居别苑",
           "calyx_x": -108124,
-          "calyx_y": 56110,
-          "calyx_z": -259430,
+          "calyx_y": -999999,
+          "calyx_z": -261230,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Desolate Maw's Demonhold",
@@ -1747,12 +1832,13 @@
           "desc_th": "รอยแยกมิติหุบเหวอันตรายและป้อมปราการเงามืด",
           "desc_zh": "险峻绝伦之空间裂隙深渊与暗影防御要塞",
           "calyx_x": -200000,
-          "calyx_y": -207157,
-          "calyx_z": 876600,
+          "calyx_y": -999999,
+          "calyx_z": 874800,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         },
         {
           "name": "Fallen Star's Cradle",
@@ -1767,12 +1853,13 @@
           "desc_th": "แอ่งหลุมอุกกาบาตดาวตกที่ซ่อนเร้นแกนดวงดาวโบราณ",
           "desc_zh": "封存着古老恒星核心能量之陨石撞击天坑",
           "calyx_x": 95142,
-          "calyx_y": 302103,
-          "calyx_z": 210019,
+          "calyx_y": -999999,
+          "calyx_z": 208219,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,
-          "calyx_entity_id": 1337
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
         }
       ]
     }

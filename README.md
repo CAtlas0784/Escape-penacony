@@ -26,8 +26,10 @@ Allows players to easily escape Penacony and explore all maps across the game wi
   - **Aidonia (Plane 20451)**: Temple of the Muses with console era switching.
   - **Great Tomb of the Dragon (Plane 20462)**: Underworld tomb and elevator rune activation.
   - **Eye of Twilight (Plane 20481 & 20482)**: Sky Arena of Ares (Feather shrine) and Port of Twilight (Titan warship apron).
-- **⚔️ Native Calyx Combat Support**:
-  - Spawns Calyx Prop 808 with verified group and instance IDs so combat can be triggered in any map.(maybe?)
+- **⚔️ Calyx Mode & Category Filtering**:
+  - Filter maps before selecting worlds: **[⚔️] Combat Ready (Calyx Supported)** vs **[🗺️] Exploration Only (Safe Mode)** vs **[🌐] All Maps**.
+  - In Exploration maps, Calyx is safely placed underground (`Y = -999999`) to eliminate accidental interaction and infinite loading freezes.
+  - In Combat maps, verified native Calyx properties (Group ID & Inst ID) are placed for smooth battle triggers.
 - **🚀 One-Click ppSR Server Restart**:
   - Automatically restarts `ppsr.exe` in its own UTF-8 console window (`chcp 65001`), eliminating encoding errors with Chinese console text.
 
@@ -37,12 +39,13 @@ Allows players to easily escape Penacony and explore all maps across the game wi
 
 1. Double-click **`change_scene.bat`**.
 2. Select your language by pressing **`[L]`** (English / ภาษาไทย / 简体中文).
-3. Use **`[UP]`** and **`[DOWN]`** arrow keys to highlight your desired **Planet / World**.
-4. Press **`[ENTER]`** to view the maps for that world.
-5. Highlight your desired **Scene / Map** and press **`[ENTER]`**.
-6. The tool updates `persistent.json` and makes a backup (`persistent.json.bak`).
-7. Select **`[2] Restart & Launch ppSR Server`** directly from the menu.
-8. Log into the game and explore!
+3. Select your desired mode: **[⚔️] Combat Ready**, **[🗺️] Exploration Only**, or **[🌐] All Maps**.
+4. Use **`[UP]`** and **`[DOWN]`** arrow keys to highlight your desired **Planet / World**.
+5. Press **`[ENTER]`** to view the maps for that world.
+6. Highlight your desired **Scene / Map** and press **`[ENTER]`**.
+7. The tool updates `persistent.json` and makes a backup (`persistent.json.bak`).
+8. Select **`[2] Restart & Launch ppSR Server`** directly from the menu.
+9. Log into the game and enjoy!
 
 ---
 
