@@ -175,7 +175,7 @@
       "id": "jarilo_vi",
       "name": "Jarilo-VI (Belobog)",
       "name_th": "Jarilo-VI (Belobog)",
-      "name_zh": "雅利洛-VI",
+      "name_zh": "雅利洛-Ⅵ",
       "icon": "[Belobog]",
       "scenes": [
         {
@@ -526,7 +526,7 @@
         {
           "name": "Stargazer Navalia",
           "name_th": "Stargazer Navalia (อู่ต่อเรือดวงดาว)",
-          "name_zh": "迴星港",
+          "name_zh": "迥星港",
           "plane_id": 20212,
           "x": 133300,
           "y": 8008,
@@ -745,7 +745,7 @@
         {
           "name": "The Reverie (Reality Hotel)",
           "name_th": "The Reverie (โรงแรมในโลกจริง)",
-          "name_zh": "「白日梦」酒店 - 现实",
+          "name_zh": "「白日梦」酒店-现实",
           "plane_id": 10305,
           "x": 197,
           "y": 1547,
@@ -766,7 +766,7 @@
         {
           "name": "Penacony Paperfold University College",
           "name_th": "Penacony Paperfold University (มหาวิทยาลัย Paperfold)",
-          "name_zh": "折纸大学",
+          "name_zh": "匹诺康尼折纸大学学院",
           "plane_id": 10306,
           "x": 0,
           "y": 4903,
@@ -808,7 +808,7 @@
         {
           "name": "The Reverie (Dreamscape Hotel)",
           "name_th": "The Reverie (โรงแรมในแดนฝัน)",
-          "name_zh": "「白日梦」酒店 - 梦境",
+          "name_zh": "「白日梦」酒店-梦境",
           "plane_id": 20311,
           "x": 118093,
           "y": 32410,
@@ -829,7 +829,7 @@
         {
           "name": "A Child's Dream",
           "name_th": "A Child's Dream (ความฝันวัยเยาว์)",
-          "name_zh": "幼童之梦",
+          "name_zh": "《稚子的梦》",
           "plane_id": 20312,
           "x": -123138,
           "y": 11511,
@@ -964,7 +964,7 @@
         {
           "name": "Okhema - Eternal Holy City (Agora / Main Town)",
           "name_th": "Okhema - นครศักดิ์สิทธิ์นิรันดร์ (จัตุรัสกลางเมือง Agora)",
-          "name_zh": "奥克玛 - 永恒圣城",
+          "name_zh": "奥赫玛 - 永恒圣城",
           "plane_id": 10401,
           "x": 89730,
           "y": -6120,
@@ -985,7 +985,7 @@
         {
           "name": "Okhema - Vortex of Genesis",
           "name_th": "Okhema - วังวนแห่งปฐมกาล (Vortex of Genesis)",
-          "name_zh": "奥克玛 - 创生漩涡",
+          "name_zh": "奥赫玛 - 创生漩涡",
           "plane_id": 10402,
           "x": 14,
           "y": 948,
@@ -1006,7 +1006,7 @@
         {
           "name": "Okhema - Holy Acropolis Sky Bridge",
           "name_th": "Okhema - สะพานลอยฟ้าวิหารศักดิ์สิทธิ์ (Sky Bridge)",
-          "name_zh": "奥克玛 - 圣城卫空桥",
+          "name_zh": "奥赫玛 - 圣城卫空桥",
           "plane_id": 10403,
           "x": 240,
           "y": 27786,
@@ -1027,7 +1027,7 @@
         {
           "name": "Okhema - Lower Sunken Valley",
           "name_th": "Okhema - หุบเขาลึกใต้พิภพ (Lower Sunken Valley)",
-          "name_zh": "奥克玛 - 沉降谷底",
+          "name_zh": "奥赫玛 - 沉降谷底",
           "plane_id": 10404,
           "x": 89730,
           "y": -6120,
@@ -1048,7 +1048,7 @@
         {
           "name": "Okhema - Beyond Time: An Eternal Page",
           "name_th": "Okhema - เหนือกาลเวลา: บันทึกหน้านิรันดร์ (Beyond Time)",
-          "name_zh": "奥克玛 - 岁月之外：永恒之页",
+          "name_zh": "奥赫玛 - 岁月之外：永恒之页",
           "plane_id": 10405,
           "x": 466272,
           "y": 164890,
@@ -1069,7 +1069,7 @@
         {
           "name": "Castrum Kremnos - Aedes Elysiae (Bathhouse)",
           "name_th": "Castrum Kremnos - โรงอาบน้ำทวยเทพ (Aedes Elysiae)",
-          "name_zh": "克雷姆诺斯军营 - 乐土神泉",
+          "name_zh": "悬锋城 - 乐土神泉",
           "plane_id": 10441,
           "x": -37317,
           "y": -12212,
@@ -1090,7 +1090,7 @@
         {
           "name": "Castrum Kremnos - Temple of the Titans",
           "name_th": "Castrum Kremnos - วิหารไททัน (Temple of the Titans)",
-          "name_zh": "克雷姆诺斯军营 - 泰坦神殿",
+          "name_zh": "悬锋城 - 泰坦神殿",
           "plane_id": 20411,
           "x": -26968,
           "y": 78953,
@@ -1111,7 +1111,7 @@
         {
           "name": "Castrum Kremnos - Hall of Prophecy [Dawn State]",
           "name_th": "Castrum Kremnos - โถงคำทำนาย [รุ่งอรุณ / กลางวัน]",
-          "name_zh": "克雷姆诺斯军营 - 预言之殿【黎明状态】",
+          "name_zh": "悬锋城 - 预言之殿【黎明状态】",
           "plane_id": 20412,
           "x": -83587,
           "y": 8598,
@@ -1132,7 +1132,7 @@
         {
           "name": "Castrum Kremnos - Hall of Prophecy [Evernight State]",
           "name_th": "Castrum Kremnos - โถงคำทำนาย [ราตรีนิรันดร์ / กลางคืน]",
-          "name_zh": "克雷姆诺斯军营 - 预言之殿【永夜状态】",
+          "name_zh": "悬锋城 - 预言之殿【永夜状态】",
           "plane_id": 20412,
           "x": -83587,
           "y": 8598,
@@ -1153,7 +1153,7 @@
         {
           "name": "Castrum Kremnos - Catacombs [Day/Night Statue Puzzle]",
           "name_th": "Castrum Kremnos - สุสานใต้ดิน [ปริศนารูปปั้นกลางวัน/กลางคืน]",
-          "name_zh": "克雷姆诺斯军营 - 地下墓道【昼夜雕像解谜】",
+          "name_zh": "悬锋城 - 地下墓道【昼夜雕像解谜】",
           "plane_id": 20413,
           "x": -281,
           "y": 26806,
@@ -1174,7 +1174,7 @@
         {
           "name": "Janusopolis - Sacred Colonnade Terrace [Dawn]",
           "name_th": "Janusopolis - ระเบียงเสาศักดิ์สิทธิ์ [รุ่งอรุณ]",
-          "name_zh": "雅努斯城 - 圣柱台廊【拂晓】",
+          "name_zh": "雅努萨波利斯 - 圣柱台廊【拂晓】",
           "plane_id": 20421,
           "x": 162379,
           "y": 220000,
@@ -1195,7 +1195,7 @@
         {
           "name": "Janusopolis - Sacred Colonnade Terrace [Evernight]",
           "name_th": "Janusopolis - ระเบียงเสาศักดิ์สิทธิ์ [ราตรีนิรันดร์]",
-          "name_zh": "雅努斯城 - 圣柱台廊【永夜】",
+          "name_zh": "雅努萨波利斯 - 圣柱台廊【永夜】",
           "plane_id": 20421,
           "x": 162379,
           "y": 220000,
@@ -1216,7 +1216,7 @@
         {
           "name": "Grove of Epiphany - Sunken Grove [Dawn]",
           "name_th": "Grove of Epiphany - สวนพฤกษาแห่งการรู้แจ้ง [รุ่งอรุณ]",
-          "name_zh": "启示神林 - 沉降林苑【晨曦】",
+          "name_zh": "神悟树庭 - 沉降林苑【晨曦】",
           "plane_id": 20422,
           "x": -82230,
           "y": 8542,
@@ -1237,7 +1237,7 @@
         {
           "name": "Grove of Epiphany - Sunken Grove [Evernight]",
           "name_th": "Grove of Epiphany - สวนพฤกษาแห่งการรู้แจ้ง [ราตรีนิรันดร์]",
-          "name_zh": "启示神林 - 沉降林苑【夜阑】",
+          "name_zh": "神悟树庭 - 沉降林苑【夜阑】",
           "plane_id": 20422,
           "x": -82230,
           "y": 8542,
@@ -1258,7 +1258,7 @@
         {
           "name": "Janusopolis - Grand Hall of Fate [Era Flipper Puzzle]",
           "name_th": "Janusopolis - โถงโชคชะตา [ปริศนาแสง Era Flipper]",
-          "name_zh": "雅努斯城 - 宿命圣堂【纪元翻转反光解谜】",
+          "name_zh": "雅努萨波利斯 - 宿命圣堂【纪元翻转反光解谜】",
           "plane_id": 20423,
           "x": -600,
           "y": -36,
@@ -1450,13 +1450,13 @@
       "id": "astropolis_5x",
       "name": "Astropolis (Star Metropolis)",
       "name_th": "Astropolis (มหานครดวงดาว)",
-      "name_zh": "星界大都市",
+      "name_zh": "千星城",
       "icon": "[Astropolis]",
       "scenes": [
         {
           "name": "Astropolis Central District",
           "name_th": "Astropolis Central District (เขตศูนย์กลางมหานคร)",
-          "name_zh": "星界大都市 - 中央核心区",
+          "name_zh": "千星城 - 中央核心区",
           "plane_id": 10551,
           "x": -51058,
           "y": -565500,
@@ -1477,7 +1477,7 @@
         {
           "name": "Skycall Aery",
           "name_th": "Skycall Aery (ท่าอากาศยานเวหา)",
-          "name_zh": "天鸣飞禽空港",
+          "name_zh": "空声院",
           "plane_id": 10552,
           "x": 0,
           "y": 505,
@@ -1498,7 +1498,7 @@
         {
           "name": "Lodestar Tower",
           "name_th": "Lodestar Tower (หอคอย Lodestar)",
-          "name_zh": "北极星巨塔",
+          "name_zh": "指针塔",
           "plane_id": 20551,
           "x": 0,
           "y": -215350,
@@ -1517,17 +1517,17 @@
           "calyx_supported": false
         },
         {
-          "name": "Starpoint Ship",
-          "name_th": "Starpoint Ship (เรือข้ามฟากดวงดาว)",
-          "name_zh": "星芒号",
+          "name": "Starforster",
+          "name_th": "Starforster (เรือสตาร์ฟรอสเตอร์)",
+          "name_zh": "星霜号",
           "plane_id": 20571,
           "x": -79525,
           "y": 72830,
           "z": 317669,
           "map_layer": 1,
-          "desc": "Ferry transfer station",
-          "desc_th": "สถานีเรือข้ามฟากดวงดาวและท่าเทียบรับส่งผู้โดยสาร",
-          "desc_zh": "星际渡轮中转客运大站",
+          "desc": "Aha's vessel and Masked Fools gathering ship",
+          "desc_th": "เรือสตาร์ฟรอสเตอร์ของคณะละครหน้ากากและท่านอาฮา",
+          "desc_zh": "欢愉星神阿哈与假面愚者的专属飞船",
           "calyx_x": -79525,
           "calyx_y": -999999,
           "calyx_z": 317669,
@@ -1538,17 +1538,17 @@
           "calyx_supported": false
         },
         {
-          "name": "Fleeting Joy",
-          "name_th": "Fleeting Joy (บาร์ระคนสุขโศก)",
-          "name_zh": "浮生欢愉",
+          "name": "Fleeting Joy [Pending Dump]",
+          "name_th": "Fleeting Joy [รอข้อมูล Dump] (บาร์ระคนสุขโศก)",
+          "name_zh": "浮生欢愉 [待Dump数据]",
           "plane_id": 20572,
           "x": -743,
           "y": 2435,
           "z": -64637,
           "map_layer": 1,
-          "desc": "A bar where sorrow and joy are mixed",
-          "desc_th": "บาร์สังสรรค์ที่ความโศกเศร้าและความสุขผสมผสานกัน",
-          "desc_zh": "悲欢交织的浮生酒吧",
+          "desc": "A bar where sorrow and joy are mixed (Missing dump data - loads infinitely)",
+          "desc_th": "บาร์ระคนสุขโศก (ยังไม่มีข้อมูล Dump ในเซิร์ฟเวอร์ จะค้างหน้าโหลด)",
+          "desc_zh": "悲欢交织的浮生酒吧 (服务端暂无Dump数据，进入会卡加载)",
           "calyx_x": -743,
           "calyx_y": -999999,
           "calyx_z": -64637,
@@ -1564,7 +1564,7 @@
       "id": "duomension_5x",
       "name": "Planarcadia (Duomension City & Seafeld)",
       "name_th": "Planarcadia (เมืองมิติ Duomension & Seafeld)",
-      "name_zh": "位面幻都",
+      "name_zh": "二相乐园",
       "icon": "[Planarcadia]",
       "scenes": [
         {
