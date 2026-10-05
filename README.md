@@ -16,22 +16,13 @@ Allows players to easily escape Penacony and explore all maps across the game wi
 - **🎯 100% Ground-Truth Teleport Coordinates**:
   - Every single spawn coordinate is directly extracted from official `res.json` and `scene_config` teleporters. if it worng scene my dump tool is dumb
   - Fixes all character floating in midair
-- **🗺️ Complete Amphoreus (World 501) & Puzzle Map Support**:
-  - **Styxia / Universal Matrix Core (Plane 20461)**: Dragonbone Matrix ruins and Chimera core.
-  - **Styxia - Upper Treasury & Sky Domain (Plane 20431)**: Sun/Sky and Virus CPU lighting puzzle.
-  - **Styxia - Tartarus Abyss & River of Souls (Plane 20432)**: Floating platforms and compass puzzle.
-  - **Styxia - Warbling Shores (Plane 20433)**: Watergate port and Time Lock mechanisms.
-  - **Castrum Kremnos (Plane 20412 & 20413)**: Hall of Prophecy (Dawn / Evernight) and Catacombs Day/Night statue alignment puzzle.
-  - **Janusopolis & Grove (Plane 20421, 20422, 20423)**: Sacred Colonnade, Sunken Grove, and Grand Hall of Fate (Era Flipper beam reflection puzzle).
-  - **Aidonia (Plane 20451)**: Temple of the Muses with console era switching.
-  - **Great Tomb of the Dragon (Plane 20462)**: Underworld tomb and elevator rune activation.
-  - **Eye of Twilight (Plane 20481 & 20482)**: Sky Arena of Ares (Feather shrine) and Port of Twilight (Titan warship apron).
 - **⚔️ Calyx Mode & Category Filtering**:
   - Filter maps before selecting worlds: **[⚔️] Combat Ready (Calyx Supported)** vs **[🗺️] Exploration Only (Safe Mode)** vs **[🌐] All Maps**.
   - In Exploration maps, Calyx is safely placed underground (`Y = -999999`) to eliminate accidental interaction and infinite loading freezes.
   - In Combat maps, verified native Calyx properties (Group ID & Inst ID) are placed for smooth battle triggers.
 - **🚀 One-Click ppSR Server Restart**:
   - Automatically restarts `ppsr.exe` in its own UTF-8 console window (`chcp 65001`), eliminating encoding errors with Chinese console text.
+  (dir scan only desktop and download folder)
 
 ---
 
