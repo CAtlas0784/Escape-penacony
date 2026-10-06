@@ -37,7 +37,7 @@
         {
           "name": "Party Car (Passenger Cabin)",
           "name_th": "ตู้โดยสารพักผ่อน (Passenger Cabin)",
-          "name_zh": "车厢客房",
+          "name_zh": "客房车厢",
           "plane_id": 10002,
           "x": -4785,
           "y": 15000,
@@ -526,7 +526,7 @@
         {
           "name": "Stargazer Navalia",
           "name_th": "Stargazer Navalia (อู่ต่อเรือดวงดาว)",
-          "name_zh": "迥星港",
+          "name_zh": "迴星港",
           "plane_id": 20212,
           "x": 133300,
           "y": 8008,
@@ -829,7 +829,7 @@
         {
           "name": "A Child's Dream",
           "name_th": "A Child's Dream (ความฝันวัยเยาว์)",
-          "name_zh": "《稚子的梦》",
+          "name_zh": "稚子的梦",
           "plane_id": 20312,
           "x": -123138,
           "y": 11511,
@@ -964,7 +964,7 @@
         {
           "name": "Okhema - Eternal Holy City (Agora / Main Town)",
           "name_th": "Okhema - นครศักดิ์สิทธิ์นิรันดร์ (จัตุรัสกลางเมือง Agora)",
-          "name_zh": "奥赫玛 - 永恒圣城",
+          "name_zh": "「永恒圣城」奥赫玛",
           "plane_id": 10401,
           "x": 89730,
           "y": -6120,
@@ -985,7 +985,7 @@
         {
           "name": "Okhema - Vortex of Genesis",
           "name_th": "Okhema - วังวนแห่งปฐมกาล (Vortex of Genesis)",
-          "name_zh": "奥赫玛 - 创生漩涡",
+          "name_zh": "创世涡心",
           "plane_id": 10402,
           "x": 14,
           "y": 948,
@@ -1006,7 +1006,7 @@
         {
           "name": "Okhema - Holy Acropolis Sky Bridge",
           "name_th": "Okhema - สะพานลอยฟ้าวิหารศักดิ์สิทธิ์ (Sky Bridge)",
-          "name_zh": "奥赫玛 - 圣城卫空桥",
+          "name_zh": "「云端遗堡」晨昏之眼",
           "plane_id": 10403,
           "x": 240,
           "y": 27786,
@@ -1027,7 +1027,7 @@
         {
           "name": "Okhema - Lower Sunken Valley",
           "name_th": "Okhema - หุบเขาลึกใต้พิภพ (Lower Sunken Valley)",
-          "name_zh": "奥赫玛 - 沉降谷底",
+          "name_zh": "「龙骸古城」斯缇科西亚",
           "plane_id": 10404,
           "x": 89730,
           "y": -6120,
@@ -1048,7 +1048,7 @@
         {
           "name": "Okhema - Beyond Time: An Eternal Page",
           "name_th": "Okhema - เหนือกาลเวลา: บันทึกหน้านิรันดร์ (Beyond Time)",
-          "name_zh": "奥赫玛 - 岁月之外：永恒之页",
+          "name_zh": "「岁月彼岸」一页永恒",
           "plane_id": 10405,
           "x": 466272,
           "y": 164890,
@@ -1069,7 +1069,7 @@
         {
           "name": "Castrum Kremnos - Aedes Elysiae (Bathhouse)",
           "name_th": "Castrum Kremnos - โรงอาบน้ำทวยเทพ (Aedes Elysiae)",
-          "name_zh": "悬锋城 - 乐土神泉",
+          "name_zh": "「神谕圣地」雅努萨波利斯",
           "plane_id": 10441,
           "x": -37317,
           "y": -12212,
@@ -1090,7 +1090,7 @@
         {
           "name": "Castrum Kremnos - Temple of the Titans",
           "name_th": "Castrum Kremnos - วิหารไททัน (Temple of the Titans)",
-          "name_zh": "悬锋城 - 泰坦神殿",
+          "name_zh": "「全世矩阵」无名泰坦大墓",
           "plane_id": 20411,
           "x": -26968,
           "y": 78953,
@@ -1111,7 +1111,7 @@
         {
           "name": "Castrum Kremnos - Hall of Prophecy [Dawn State]",
           "name_th": "Castrum Kremnos - โถงคำทำนาย [รุ่งอรุณ / กลางวัน]",
-          "name_zh": "悬锋城 - 预言之殿【黎明状态】",
+          "name_zh": "「命运重渊」雅努萨波利斯",
           "plane_id": 20412,
           "x": -83587,
           "y": 8598,
@@ -1132,7 +1132,7 @@
         {
           "name": "Castrum Kremnos - Hall of Prophecy [Evernight State]",
           "name_th": "Castrum Kremnos - โถงคำทำนาย [ราตรีนิรันดร์ / กลางคืน]",
-          "name_zh": "悬锋城 - 预言之殿【永夜状态】",
+          "name_zh": "「命运重渊」雅努萨波利斯【永夜】",
           "plane_id": 20412,
           "x": -83587,
           "y": 8598,
@@ -1153,7 +1153,7 @@
         {
           "name": "Castrum Kremnos - Catacombs [Day/Night Statue Puzzle]",
           "name_th": "Castrum Kremnos - สุสานใต้ดิน [ปริศนารูปปั้นกลางวัน/กลางคืน]",
-          "name_zh": "悬锋城 - 地下墓道【昼夜雕像解谜】",
+          "name_zh": "「灾梦余温」无名泰坦大墓",
           "plane_id": 20413,
           "x": -281,
           "y": 26806,
@@ -1174,7 +1174,7 @@
         {
           "name": "Janusopolis - Sacred Colonnade Terrace [Dawn]",
           "name_th": "Janusopolis - ระเบียงเสาศักดิ์สิทธิ์ [รุ่งอรุณ]",
-          "name_zh": "雅努萨波利斯 - 圣柱台廊【拂晓】",
+          "name_zh": "「半神议院」黎明云崖",
           "plane_id": 20421,
           "x": 162379,
           "y": 220000,
@@ -1195,7 +1195,7 @@
         {
           "name": "Janusopolis - Sacred Colonnade Terrace [Evernight]",
           "name_th": "Janusopolis - ระเบียงเสาศักดิ์สิทธิ์ [ราตรีนิรันดร์]",
-          "name_zh": "雅努萨波利斯 - 圣柱台廊【永夜】",
+          "name_zh": "「半神议院」黎明云崖【永夜】",
           "plane_id": 20421,
           "x": 162379,
           "y": 220000,
@@ -1216,7 +1216,7 @@
         {
           "name": "Grove of Epiphany - Sunken Grove [Dawn]",
           "name_th": "Grove of Epiphany - สวนพฤกษาแห่งการรู้แจ้ง [รุ่งอรุณ]",
-          "name_zh": "神悟树庭 - 沉降林苑【晨曦】",
+          "name_zh": "「辉痕圣林」神悟树庭",
           "plane_id": 20422,
           "x": -82230,
           "y": 8542,
@@ -1237,7 +1237,7 @@
         {
           "name": "Grove of Epiphany - Sunken Grove [Evernight]",
           "name_th": "Grove of Epiphany - สวนพฤกษาแห่งการรู้แจ้ง [ราตรีนิรันดร์]",
-          "name_zh": "神悟树庭 - 沉降林苑【夜阑】",
+          "name_zh": "「辉痕圣林」神悟树庭【永夜】",
           "plane_id": 20422,
           "x": -82230,
           "y": 8542,
@@ -1258,7 +1258,7 @@
         {
           "name": "Janusopolis - Grand Hall of Fate [Era Flipper Puzzle]",
           "name_th": "Janusopolis - โถงโชคชะตา [ปริศนาแสง Era Flipper]",
-          "name_zh": "雅努萨波利斯 - 宿命圣堂【纪元翻转反光解谜】",
+          "name_zh": "「葬忆彼岸」时光归墟",
           "plane_id": 20423,
           "x": -600,
           "y": -36,
@@ -1279,7 +1279,7 @@
         {
           "name": "Styxia - Upper Treasury & Sky Domain [Sun/Sky Puzzle]",
           "name_th": "Styxia - วิหารเวหา & แกนกลาง CPU [ปริศนาดวงอาทิตย์และท้องฟ้า]",
-          "name_zh": "冥河斯提克斯 - 苍穹神域与CPU核心【日影天象解谜】",
+          "name_zh": "哀丽秘榭",
           "plane_id": 20431,
           "x": 5,
           "y": -45838,
@@ -1300,7 +1300,7 @@
         {
           "name": "Styxia - Tartarus Abyss & River of Souls [Compass & Plates]",
           "name_th": "Styxia - เหวลึก Tartarus & แม่น้ำวิญญาณ [ปริศนาเข็มทิศและแผ่นลอย]",
-          "name_zh": "冥河斯提克斯 - 塔耳塔洛斯深渊与魂河【罗盘与浮石解谜】",
+          "name_zh": "塔耳塔洛斯深渊",
           "plane_id": 20432,
           "x": -3,
           "y": -46690,
@@ -1321,7 +1321,7 @@
         {
           "name": "Styxia - Warbling Shores [Watergate Port & Time Lock]",
           "name_th": "Styxia - ชายฝั่งคลื่นคลั่ง [ประตูกั้นน้ำ & ปริศนากุญแจเวลา Time Lock]",
-          "name_zh": "冥河斯提克斯 - 啼鸣之滨【水门港湾与时光锁解谜】",
+          "name_zh": "冥河外港",
           "plane_id": 20433,
           "x": -2655,
           "y": 889049,
@@ -1342,7 +1342,7 @@
         {
           "name": "Aidonia - Temple of the Muses [Console Era Switch]",
           "name_th": "Aidonia - วิหารมิวส์แห่งขุนเขาหิมะ [แท่นสลับยุคสมัย Console]",
-          "name_zh": "艾多尼亚 - 缪斯神庙雪域【纪元控制台切换】",
+          "name_zh": "缪斯神殿",
           "plane_id": 20451,
           "x": 435960,
           "y": 56842,
@@ -1405,7 +1405,7 @@
         {
           "name": "Eye of Twilight - Sky Arena of Ares [Feather Shrine]",
           "name_th": "Eye of Twilight - ลานประลองแอรีสเวหา [ศาลเจ้าขนนกศักดิ์สิทธิ์]",
-          "name_zh": "暮光之眼 - 阿瑞斯浮空决斗场【羽之神祠】",
+          "name_zh": "阿瑞斯天空竞技场",
           "plane_id": 20481,
           "x": 14790,
           "y": 642038,
@@ -1456,7 +1456,7 @@
         {
           "name": "Astropolis Central District",
           "name_th": "Astropolis Central District (เขตศูนย์กลางมหานคร)",
-          "name_zh": "千星城 - 中央核心区",
+          "name_zh": "千星城中心城区",
           "plane_id": 10551,
           "x": -51058,
           "y": -565500,
@@ -1515,48 +1515,6 @@
           "calyx_prop_id": 808,
           "calyx_entity_id": 1337,
           "calyx_supported": false
-        },
-        {
-          "name": "Starforster",
-          "name_th": "Starforster (เรือสตาร์ฟรอสเตอร์)",
-          "name_zh": "星霜号",
-          "plane_id": 20571,
-          "x": -79525,
-          "y": 72830,
-          "z": 317669,
-          "map_layer": 1,
-          "desc": "Aha's vessel and Masked Fools gathering ship",
-          "desc_th": "เรือสตาร์ฟรอสเตอร์ของคณะละครหน้ากากและท่านอาฮา",
-          "desc_zh": "欢愉星神阿哈与假面愚者的专属飞船",
-          "calyx_x": -79525,
-          "calyx_y": -999999,
-          "calyx_z": 317669,
-          "calyx_group_id": 186,
-          "calyx_inst_id": 300001,
-          "calyx_prop_id": 808,
-          "calyx_entity_id": 1337,
-          "calyx_supported": false
-        },
-        {
-          "name": "Fleeting Joy [Pending Dump]",
-          "name_th": "Fleeting Joy [รอข้อมูล Dump] (บาร์ระคนสุขโศก)",
-          "name_zh": "浮生欢愉 [待Dump数据]",
-          "plane_id": 20572,
-          "x": -743,
-          "y": 2435,
-          "z": -64637,
-          "map_layer": 1,
-          "desc": "A bar where sorrow and joy are mixed (Missing dump data - loads infinitely)",
-          "desc_th": "บาร์ระคนสุขโศก (ยังไม่มีข้อมูล Dump ในเซิร์ฟเวอร์ จะค้างหน้าโหลด)",
-          "desc_zh": "悲欢交织的浮生酒吧 (服务端暂无Dump数据，进入会卡加载)",
-          "calyx_x": -743,
-          "calyx_y": -999999,
-          "calyx_z": -64637,
-          "calyx_group_id": 186,
-          "calyx_inst_id": 300001,
-          "calyx_prop_id": 808,
-          "calyx_entity_id": 1337,
-          "calyx_supported": false
         }
       ]
     },
@@ -1570,7 +1528,7 @@
         {
           "name": "Duomension City (Central Town)",
           "name_th": "Duomension City (เมืองกลางสองมิติ)",
-          "name_zh": "双次元城",
+          "name_zh": "二维市",
           "plane_id": 10501,
           "x": 95660,
           "y": 19175,
@@ -1591,7 +1549,7 @@
         {
           "name": "Phantasmoon Courtyard",
           "name_th": "Phantasmoon Courtyard (ลานจันทรามายา)",
-          "name_zh": "幻月庭院",
+          "name_zh": "幻月秘庭",
           "plane_id": 10502,
           "x": 5770,
           "y": 92,
@@ -1612,7 +1570,7 @@
         {
           "name": "Seafeld City",
           "name_th": "Seafeld City (เมืองท่า Seafeld)",
-          "name_zh": "海菲尔德市",
+          "name_zh": "海原市",
           "plane_id": 10521,
           "x": -693530,
           "y": 15046,
@@ -1633,7 +1591,7 @@
         {
           "name": "Graphia Academy",
           "name_th": "Graphia Academy (สถาบัน Graphia)",
-          "name_zh": "格拉菲亚学院",
+          "name_zh": "绘世学院",
           "plane_id": 20501,
           "x": 72091,
           "y": 7000,
@@ -1675,7 +1633,7 @@
         {
           "name": "Dovebrook District",
           "name_th": "Dovebrook District (เขต Dovebrook)",
-          "name_zh": "白鸽溪街区",
+          "name_zh": "鸽川区",
           "plane_id": 20503,
           "x": -64961,
           "y": 9694,
@@ -1696,7 +1654,7 @@
         {
           "name": "Lookout Cloud Station",
           "name_th": "Lookout Cloud Station (สถานีรถไฟลอยเมฆ)",
-          "name_zh": "眺望云栈列车站",
+          "name_zh": "观览云岛站",
           "plane_id": 20511,
           "x": -88818,
           "y": -14785,
@@ -1738,7 +1696,7 @@
         {
           "name": "Pearluxe Tower",
           "name_th": "Pearluxe Tower (หอคอย Pearluxe)",
-          "name_zh": "珠光奢华大厦",
+          "name_zh": "珠星大厦",
           "plane_id": 20513,
           "x": -203880,
           "y": -16966,
@@ -1759,7 +1717,7 @@
         {
           "name": "Pearl's Studio",
           "name_th": "Pearl's Studio (สตูดิโอของ Pearl)",
-          "name_zh": "珍珠创意工坊",
+          "name_zh": "真珠的演播室",
           "plane_id": 20514,
           "x": -86030,
           "y": -15564,
@@ -1780,7 +1738,7 @@
         {
           "name": "Seafeld TV Tower",
           "name_th": "Seafeld TV Tower (หอส่งสัญญาณโทรทัศน์ Seafeld)",
-          "name_zh": "海菲尔德电视塔",
+          "name_zh": "海原电视塔",
           "plane_id": 20521,
           "x": -363,
           "y": 115600,
@@ -1801,7 +1759,7 @@
         {
           "name": "Inkford Hermitage",
           "name_th": "Inkford Hermitage (บ้านพักสันโดษ Inkford)",
-          "name_zh": "墨溪幽居",
+          "name_zh": "渡画泉隐",
           "plane_id": 20531,
           "x": -108124,
           "y": 56110,
@@ -1822,7 +1780,7 @@
         {
           "name": "Desolate Maw's Demonhold",
           "name_th": "Desolate Maw's Demonhold (ป้อมปราการหุบเหวมาร)",
-          "name_zh": "绝堑魔渊要塞",
+          "name_zh": "寂灭空飨妖都",
           "plane_id": 20541,
           "x": -200000,
           "y": -207157,
@@ -1843,7 +1801,7 @@
         {
           "name": "Fallen Star's Cradle",
           "name_th": "Fallen Star's Cradle (แหล่งกำเนิดดาวตก)",
-          "name_zh": "落星摇篮",
+          "name_zh": "坠星的摇篮",
           "plane_id": 20542,
           "x": 95142,
           "y": 302103,
@@ -1855,6 +1813,48 @@
           "calyx_x": 95142,
           "calyx_y": -999999,
           "calyx_z": 208219,
+          "calyx_group_id": 186,
+          "calyx_inst_id": 300001,
+          "calyx_prop_id": 808,
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
+        },
+        {
+          "name": "Starforster",
+          "name_th": "Starforster (เรือสตาร์ฟรอสเตอร์)",
+          "name_zh": "点星船",
+          "plane_id": 20571,
+          "x": -79525,
+          "y": 72830,
+          "z": 317669,
+          "map_layer": 1,
+          "desc": "Aha's vessel and Masked Fools gathering ship",
+          "desc_th": "เรือสตาร์ฟรอสเตอร์ของคณะละครหน้ากากและท่านอาฮา",
+          "desc_zh": "欢愉星神阿哈与假面愚者的专属飞船",
+          "calyx_x": -79525,
+          "calyx_y": -999999,
+          "calyx_z": 317669,
+          "calyx_group_id": 186,
+          "calyx_inst_id": 300001,
+          "calyx_prop_id": 808,
+          "calyx_entity_id": 1337,
+          "calyx_supported": false
+        },
+        {
+          "name": "Fleeting Joy",
+          "name_th": "Fleeting Joy (บาร์ระคนสุขโศก)",
+          "name_zh": "瞬息欢愉",
+          "plane_id": 20572,
+          "x": -743,
+          "y": 2435,
+          "z": -64637,
+          "map_layer": 1,
+          "desc": "A bar where sorrow and joy are mixed",
+          "desc_th": "บาร์สังสรรค์ที่ความโศกเศร้าและความสุขผสมผสานกัน",
+          "desc_zh": "悲欢交织的瞬息酒吧",
+          "calyx_x": -743,
+          "calyx_y": -999999,
+          "calyx_z": -64637,
           "calyx_group_id": 186,
           "calyx_inst_id": 300001,
           "calyx_prop_id": 808,

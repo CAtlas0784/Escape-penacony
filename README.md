@@ -57,3 +57,10 @@ Escape-penacony/
 ## ⚠️ Notes
 
 - ppSR only reads `persistent.json` when the server starts up. If the server is already running, restart it using Option `[2]` or `start_ppsr.bat`.
+
+---
+
+## 💖 Credits & Acknowledgements / เครดิตและคำขอบคุณ
+
+- Special thanks to **Oriyuki** for providing the accurate Chinese map localization and translation dictionary! (特别感谢 **Oriyuki** 提供完整的中文地图场景名称翻译与定位校对！)
+=======
