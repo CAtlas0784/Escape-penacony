@@ -64,5 +64,5 @@ Escape-penacony/
 
 ## 💖 Credits & Acknowledgements
 
-- Special thanks to **Oriyuki** for providing the accurate Chinese map localization and translation dictionary! (特别感谢 **Oriyuki** 提供完整的中文地图场景名称翻译与定位校对！)
+- Special thanks to **Oriyuki** for providing the accurate Chinese map localization
 =======
