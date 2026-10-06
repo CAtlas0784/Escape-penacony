@@ -63,11 +63,13 @@ Escape-penacony/
 ├── ppsr_teleport.ps1      # Interactive navigation engine (EN/TH/ZH)
 ├── scenes.json            # Database of 8 worlds and 85 maps (Multilingual)
 ├── start_ppsr.bat         # UTF-8 server launcher for ppsr.exe
-├── Android/               # Android / Termux edition
-│   ├── teleport.py        # Mobile CLI teleporter (Python 3)
+├── Android Termux/        # Android / Termux CLI edition (Python 3)
+│   ├── teleport.py        # Mobile CLI teleporter
 │   ├── scenes.json        # Bundled scenes database
 │   ├── start.sh           # Termux launcher script
 │   └── README.md          # Android setup guide
+├── Android APK/           # Standalone Android APK project (Placeholder)
+│   └── README.md          # APK roadmap & documentation
 ├── README.md              # English documentation
 ├── docs/
 │   └── README_ZH.md       # Chinese documentation (简体中文说明文档)

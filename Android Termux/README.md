@@ -38,13 +38,13 @@ pkg update && pkg install python -y
 ```
 
 ### 2. นำโฟลเดอร์เครื่องมือไปวางใน Termux
-คุณสามารถคัดลอกโฟลเดอร์ `Android/` จากคอมหรือโฟลเดอร์ Download มาไว้ใน Termux หรือเปิดใช้งานจากพาธที่วางไว้โดยตรง:
+คุณสามารถคัดลอกโฟลเดอร์ `Android Termux/` จากคอมหรือโฟลเดอร์ Download มาไว้ใน Termux หรือเปิดใช้งานจากพาธที่วางไว้โดยตรง:
 ```bash
 # ตัวอย่าง: หากวางไว้ใน Internal Storage /sdcard/Download
-cd /sdcard/Download/Escape-penacony-tool/Android
+cd "/sdcard/Download/Escape-penacony-tool/Android Termux"
 
 # หรือหากวางไว้ใน Home Directory ของ Termux
-cd ~/Escape-penacony-tool/Android
+cd ~/Escape-penacony-tool/"Android Termux"
 ```
 
 ### 3. รันโปรแกรม (Run)
