@@ -3,6 +3,8 @@
 An interactive, zero-hardcode CLI tool and companion utility for **ppSR** 
 Allows players to easily escape Penacony and explore all maps across the game with full Calyx combat support(Just kidding it not lmao)
 
+[English](../README.md) · [简体中文](docs/README_ZH.md)
+
 ![terminal look](./Picture.png)
 ---
 
