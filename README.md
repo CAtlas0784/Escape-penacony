@@ -1,9 +1,24 @@
+<div align="center">
+
 # Escape Penacony Tool (ppSR Scene & Map Teleporter)
 
-An interactive, zero-hardcode CLI tool and companion utility for **ppSR** 
-Allows players to easily escape Penacony and explore all maps across the game with full Calyx combat support(Just kidding it not lmao)
+*An interactive, zero-hardcode CLI tool and companion utility for ppSR.*
+
+[English](README.md) · [简体中文](docs/README_ZH.md)
+
+</div>
+
+---
+
+An interactive, zero-hardcode CLI tool and companion utility for **ppSR**.  
+Allows players to easily escape Penacony and explore all maps across the game with full Calyx combat support (Just kidding it not lmao)
+
+<div align="center">
 
 ![terminal look](./Picture.png)
+
+</div>
+
 ---
 
 ## ✨ Features
@@ -46,9 +61,16 @@ Allows players to easily escape Penacony and explore all maps across the game wi
 Escape-penacony/
 ├── change_scene.bat       # Quick batch launcher (Auto 120x32 window)
 ├── ppsr_teleport.ps1      # Interactive navigation engine (EN/TH/ZH)
-├── scenes.json            # Database of 8 worlds and 83 maps (Multilingual)
+├── scenes.json            # Database of 8 worlds and 85 maps (Multilingual)
 ├── start_ppsr.bat         # UTF-8 server launcher for ppsr.exe
-├── README.md              # Documentation
+├── Android/               # Android / Termux edition
+│   ├── teleport.py        # Mobile CLI teleporter (Python 3)
+│   ├── scenes.json        # Bundled scenes database
+│   ├── start.sh           # Termux launcher script
+│   └── README.md          # Android setup guide
+├── README.md              # English documentation
+├── docs/
+│   └── README_ZH.md       # Chinese documentation (简体中文说明文档)
 └── .gitignore             # Local config & temporary file exclusions
 ```
 
@@ -63,4 +85,3 @@ Escape-penacony/
 ## 💖 Credits & Acknowledgements / เครดิตและคำขอบคุณ
 
 - Special thanks to **Oriyuki** for providing the accurate Chinese map localization and translation dictionary! (特别感谢 **Oriyuki** 提供完整的中文地图场景名称翻译与定位校对！)
-=======

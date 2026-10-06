@@ -88,18 +88,25 @@ $I18N = @{
         MoreItemsAbove      = "▲▲▲  (More items above...)"
         MoreItemsBelow      = "▼▼▼  (More items below...)"
         CategoryTitle       = "Select Map Category / เลือกหมวดหมู่ / 选择分类"
-        CategorySub         = "Choose teleport mode (Combat vs Exploration):"
-        CatCombat           = "[⚔️] Combat Ready (Calyx Supported)"
-        CatCombatDesc       = "{0} maps with verified native Calyx combat in game client"
-        CatExplore          = "[🗺️] Exploration Only (Safe / No Calyx)"
-        CatExploreDesc      = "{0} maps for scenery and photos. Calyx safely hidden underground"
-        CatAll              = "[🌐] All Worlds & Maps"
+        CategorySub         = "Choose teleport mode (Combat vs Exploration vs Beta):"
+        CatCombat           = "[⚔️] Combat Ready (Product / Calyx Supported)"
+        CatCombatDesc       = "{0} Product maps with verified native Calyx combat in official client"
+        CatExplore          = "[🗺️] Exploration Only (Product / Safe Scenery)"
+        CatExploreDesc      = "{0} Product maps for scenery. Calyx safely hidden underground Y=-999999"
+        CatBeta             = "[🧪] Beta Scenes (4.7 Beta / CBT Exclusive)"
+        CatBetaDesc         = "{0} scenes exclusive to 4.7 Beta client (Requires Beta client)"
+        CatAll              = "[🌐] All Worlds & Maps (Product + Beta)"
         CatAllDesc          = "{0} maps across {1} planets"
         PlanetSelectTitle   = "Select World / Planet"
         BadgeCombat         = "[⚔️ Calyx]"
         BadgeExplore        = "[🗺️ Safe]"
+        BadgeBeta           = "[🧪 4.7 Beta]"
+        BadgeProduct        = "[Product]"
+        SummaryClient       = "Client Version: "
         CombatSupported     = "[OK] Native Calyx (Combat Ready)"
         CombatHidden        = "[Hidden] Underground Y=-999999 (No freeze)"
+        BetaWarning         = "[!] WARNING: 4.7 Beta Client Required! Official Product (4.6.x) client will freeze."
+        NoticeHeader        = "[CLIENT NOTICE]"
         ActionBackCat       = "[<-] Back to Category Selection"
         ActionBackCatDesc   = "Return to category selection menu"
     }
@@ -168,18 +175,25 @@ $I18N = @{
         MoreItemsAbove      = "▲▲▲  (มีรายการด้านบนเพิ่มเติม...)"
         MoreItemsBelow      = "▼▼▼  (มีรายการด้านล่างเพิ่มเติม...)"
         CategoryTitle       = "เลือกหมวดหมู่แผนที่ / Select Map Category / 选择分类"
-        CategorySub         = "เลือกโหมดการใช้งานแผนที่ที่ต้องการ:"
-        CatCombat           = "[⚔️] รองรับการกดสู้ Calyx (กดสู้ได้จริง ไม่ค้าง)"
-        CatCombatDesc       = "{0} แผนที่ที่มีเสา Calyx แท้ในเกม กด F เข้าหน้าต่างสู้ได้ 100%"
-        CatExplore          = "[🗺️] เดินสำรวจทั่วไป (ซ่อนเสาใต้ดิน ป้องกันเกมค้าง)"
-        CatExploreDesc      = "{0} แผนที่สำหรับเดินชมวิว ถ่ายรูป (ซ่อนเสาใต้ดิน ป้องกันเผลอกดค้าง)"
-        CatAll              = "[🌐] แผนที่ทั้งหมด (รวมทุกหมวดหมู่)"
+        CategorySub         = "เลือกโหมดการใช้งานแผนที่ที่ต้องการ (ต่อสู้ / สำรวจ / แมพเบต้า):"
+        CatCombat           = "[⚔️] รองรับการกดสู้ Calyx (Product / กดสู้ได้จริง ไม่ค้าง)"
+        CatCombatDesc       = "{0} แผนที่ของตัวเกม Product ที่มีเสา Calyx แท้ในเกม กด F เข้าหน้าต่างสู้ได้ 100%"
+        CatExplore          = "[🗺️] เดินสำรวจทั่วไป (Product / ซ่อนเสาใต้ดิน ป้องกันเกมค้าง)"
+        CatExploreDesc      = "{0} แผนที่ของตัวเกม Product สำหรับเดินชมวิว ซ่อนเสาใต้ดิน Y=-999999"
+        CatBeta             = "[🧪] แผนที่ 4.7 Beta (CBT / เฉพาะตัวเกมเวอร์ชันเบต้า)"
+        CatBetaDesc         = "{0} แผนที่เฉพาะตัวเกม 4.7 Beta (ต้องใช้ตัวเกม Beta 4.7)"
+        CatAll              = "[🌐] แผนที่ทั้งหมด (รวม Product + Beta)"
         CatAllDesc          = "{0} แผนที่จากทั้งหมด {1} ดวงดาว"
         PlanetSelectTitle   = "เลือกดวงดาว / โลก"
         BadgeCombat         = "[⚔️ เสาสู้]"
         BadgeExplore        = "[🗺️ สำรวจ]"
+        BadgeBeta           = "[🧪 4.7 Beta]"
+        BadgeProduct        = "[Product]"
+        SummaryClient       = "ประเภทรุ่นตัวเกม: "
         CombatSupported     = "[OK] รองรับ 100% (กดสู้ได้จริง)"
         CombatHidden        = "[ซ่อนใต้ดิน Y=-999999] ปลอดภัย ไม่หมุนค้าง"
+        BetaWarning         = "[!] คำเตือน: ต้องใช้ตัวเกม 4.7 Beta เท่านั้น! หากใช้ตัวเกม Product ปกติ (4.6.x) จะค้างหน้าโหลด"
+        NoticeHeader        = "[ข้อสังเกตเกี่ยวกับตัวเกม]"
         ActionBackCat       = "[<-] ย้อนกลับไปเลือกหมวดหมู่"
         ActionBackCatDesc   = "กลับสู่เมนูเลือกประเภทแผนที่"
     }
@@ -219,6 +233,7 @@ $I18N = @{
         SummaryPlane        = "位面 ID:       "
         SummaryCoords       = "空间坐标:      "
         SummaryLayer        = "地图层级:      "
+        SummaryClient       = "客户端版本:    "
         SummaryCalyx        = "花萼生成点:    "
         SummaryTarget       = "目标文件:      "
         SummaryBackup       = "自动备份:      "
@@ -248,18 +263,24 @@ $I18N = @{
         MoreItemsAbove      = "▲▲▲  (上方还有更多地图...)"
         MoreItemsBelow      = "▼▼▼  (下方还有更多地图...)"
         CategoryTitle       = "选择地图分类 / Select Map Category / เลือกหมวดหมู่"
-        CategorySub         = "请选择想要浏览的传送模式:"
-        CatCombat           = "[⚔️] 支持花萼对战 (原生花萼 / 不卡死)"
-        CatCombatDesc       = "{0} 个官方原生花萼场景，可按F正常开启对战"
-        CatExplore          = "[🗺️] 纯探索观景 (隐藏地下花萼 / 安全不卡死)"
-        CatExploreDesc      = "{0} 个用于观景拍照的场景，花萼沉入地底防止误触"
-        CatAll              = "[🌐] 全部宇宙地图 (完整场景列表)"
+        CategorySub         = "请选择想要浏览的传送模式 (正式服战斗 / 正式服探索 / 4.7 Beta):"
+        CatCombat           = "[⚔️] 支持花萼对战 (正式服原生花萼 / 不卡死)"
+        CatCombatDesc       = "{0} 个官方正式服原生花萼场景，可按F正常开启对战"
+        CatExplore          = "[🗺️] 纯探索观景 (正式服 / 隐藏地下花萼 / 安全不卡死)"
+        CatExploreDesc      = "{0} 个正式服观景拍照场景，花萼沉入地底防止误触"
+        CatBeta             = "[🧪] 4.7 Beta 测试端专属场景 (CBT)"
+        CatBetaDesc         = "{0} 个仅在 4.7 Beta 测试端客户端中存在的场景 (需测试端)"
+        CatAll              = "[🌐] 全部宇宙地图 (正式服 + Beta 完整场景列表)"
         CatAllDesc          = "{1} 个世界共 {0} 个场景地图"
         PlanetSelectTitle   = "选择星穹世界"
         BadgeCombat         = "[⚔️ 可对战]"
         BadgeExplore        = "[🗺️ 仅探索]"
+        BadgeBeta           = "[🧪 4.7 Beta]"
+        BadgeProduct        = "[正式服]"
         CombatSupported     = "[OK] 原生支持 (可正常战斗)"
         CombatHidden        = "[已隐藏于地下 Y=-999999] 安全防止卡死"
+        BetaWarning         = "[!] 提示: 此场景需要 4.7 Beta 客户端！使用正式服/Product 客户端 (如 4.6.x) 进入会卡在列车加载界面！"
+        NoticeHeader        = "[客户端版本提示]"
         ActionBackCat       = "[<-] 返回分类选择"
         ActionBackCatDesc   = "返回地图模式分类列表"
     }
@@ -764,6 +785,13 @@ function Apply-SceneTeleport {
         Write-Host "  $(T 'SummaryPlane')" -NoNewline -ForegroundColor White; Write-Host $planeId -ForegroundColor Magenta
         Write-Host "  $(T 'SummaryCoords')" -NoNewline -ForegroundColor White; Write-Host "X: $x | Y: $y | Z: $z" -ForegroundColor Green
         Write-Host "  $(T 'SummaryLayer')" -NoNewline -ForegroundColor White; Write-Host $mapLayer -ForegroundColor DarkCyan
+
+        # Client Channel (Product vs Beta)
+        $isBeta = ($Scene.is_beta -eq $true) -or ($Scene.channel -eq "beta")
+        $clientChan = if ($Scene.client_version) { $Scene.client_version } elseif ($isBeta) { "4.7 Beta" } else { "Product" }
+        $chanColor = if ($isBeta) { [ConsoleColor]::Magenta } else { [ConsoleColor]::Cyan }
+        Write-Host "  $(T 'SummaryClient')" -NoNewline -ForegroundColor White; Write-Host $clientChan -ForegroundColor $chanColor
+
         $calyxSummary = if ($Scene.calyx_supported) {
             "X: $calyxX | Y: $calyxY | Z: $calyxZ (Group $calyxGroupId, Inst $calyxInstId) $(T 'CombatSupported')"
         } else {
@@ -773,6 +801,17 @@ function Apply-SceneTeleport {
         Write-Host "  $(T 'SummaryCalyx')" -NoNewline -ForegroundColor White; Write-Host $calyxSummary -ForegroundColor $calyxColor
         Write-Host "  $(T 'SummaryTarget')" -NoNewline -ForegroundColor White; Write-Host $Target -ForegroundColor DarkGray
         Write-Host "  $(T 'SummaryBackup')" -NoNewline -ForegroundColor White; Write-Host $bakPath -ForegroundColor DarkGray
+
+        if ($isBeta) {
+            $betaNotice = if ($Script:CurrentLang -eq "th" -and $Scene.beta_notice_th) { $Scene.beta_notice_th } `
+                          elseif ($Script:CurrentLang -eq "zh" -and $Scene.beta_notice_zh) { $Scene.beta_notice_zh } `
+                          elseif ($Scene.beta_notice) { $Scene.beta_notice } `
+                          else { (T "BetaWarning") }
+            Write-Host "  ----------------------------------------------------------------" -ForegroundColor DarkYellow
+            Write-Host "  $(T 'NoticeHeader')" -ForegroundColor Yellow
+            Write-Host "  $betaNotice" -ForegroundColor DarkYellow
+        }
+
         Write-Host "  ----------------------------------------------------------------`n" -ForegroundColor DarkGray
 
         return $true
@@ -941,14 +980,22 @@ function Main {
             }
         } catch {}
 
-        # Count combat vs explore maps
+        # Count combat vs explore vs beta maps
         $combatCount = 0
         $exploreCount = 0
+        $betaCount = 0
         $totalCount = 0
         foreach ($p in $planets) {
             foreach ($s in $p.scenes) {
                 $totalCount++
-                if ($s.calyx_supported) { $combatCount++ } else { $exploreCount++ }
+                $sBeta = ($s.is_beta -eq $true) -or ($s.channel -eq "beta")
+                if ($sBeta) {
+                    $betaCount++
+                } elseif ($s.calyx_supported) {
+                    $combatCount++
+                } else {
+                    $exploreCount++
+                }
             }
         }
 
@@ -963,6 +1010,11 @@ function Main {
                 Label = "$(T 'CatExplore')  ($exploreCount)"
                 Desc  = (T 'CatExploreDesc' @($exploreCount))
                 Data  = "explore"
+            },
+            [PSCustomObject]@{
+                Label = "$(T 'CatBeta')  ($betaCount)"
+                Desc  = (T 'CatBetaDesc' @($betaCount))
+                Data  = "beta"
             },
             [PSCustomObject]@{
                 Label = "$(T 'CatAll')  ($totalCount)"
@@ -1002,16 +1054,18 @@ function Main {
             continue
         }
 
-        $filterMode = $chosenCatItem.Data # "combat", "explore", or "all"
-        $catLabel = if ($filterMode -eq "combat") { (T "CatCombat") } elseif ($filterMode -eq "explore") { (T "CatExplore") } else { (T "CatAll") }
+        $filterMode = $chosenCatItem.Data # "combat", "explore", "beta", or "all"
+        $catLabel = if ($filterMode -eq "combat") { (T "CatCombat") } elseif ($filterMode -eq "explore") { (T "CatExplore") } elseif ($filterMode -eq "beta") { (T "CatBeta") } else { (T "CatAll") }
 
         # Submenu: Select Planet filtered by category
         while ($true) {
             $filteredPlanets = @()
             foreach ($p in $planets) {
                 $matchingScenes = @($p.scenes | Where-Object {
-                    if ($filterMode -eq "combat") { $_.calyx_supported -eq $true }
-                    elseif ($filterMode -eq "explore") { $_.calyx_supported -ne $true }
+                    $sBeta = ($_.is_beta -eq $true) -or ($_.channel -eq "beta")
+                    if ($filterMode -eq "combat") { ($_.calyx_supported -eq $true) -and (-not $sBeta) }
+                    elseif ($filterMode -eq "explore") { ($_.calyx_supported -ne $true) -and (-not $sBeta) }
+                    elseif ($filterMode -eq "beta") { $sBeta }
                     else { $true }
                 })
                 if ($matchingScenes.Count -gt 0) {
@@ -1060,9 +1114,11 @@ function Main {
                     $sc = $selectedScenes[$s]
                     $scName = Get-LocalizedName $sc
                     $scDesc = Get-LocalizedDesc $sc
-                    $badge = if ($sc.calyx_supported) { (T 'BadgeCombat') } else { (T 'BadgeExplore') }
+                    $isBeta = ($sc.is_beta -eq $true) -or ($sc.channel -eq "beta")
+                    $chanBadge = if ($isBeta) { (T 'BadgeBeta') } else { (T 'BadgeProduct') }
+                    $calyxBadge = if ($sc.calyx_supported) { (T 'BadgeCombat') } else { (T 'BadgeExplore') }
                     $sceneOptions += [PSCustomObject]@{
-                        Label = "$($s + 1). $badge [Plane $($sc.plane_id)] $scName"
+                        Label = "$($s + 1). $chanBadge $calyxBadge [Plane $($sc.plane_id)] $scName"
                         Desc  = $scDesc
                         Data  = $sc
                     }
