@@ -65,4 +65,3 @@ Escape-penacony/
 ## 💖 Credits & Acknowledgements
 
 - Special thanks to **Oriyuki** for providing the accurate Chinese map localization
-=======
