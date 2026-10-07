@@ -15,6 +15,8 @@ Allows players to easily escape Penacony and explore all maps across the game wi
 
 <div align="center">
 
+[English](/README.md) · [简体中文](docs/README_ZH.md)
+
 ![terminal look](./Picture.png)
 
 </div>
@@ -84,6 +86,5 @@ Escape-penacony/
 
 ---
 
-## 💖 Credits & Acknowledgements / เครดิตและคำขอบคุณ
-
-- Special thanks to **Oriyuki** for providing the accurate Chinese map localization and translation dictionary! (特别感谢 **Oriyuki** 提供完整的中文地图场景名称翻译与定位校对！)
+## 💖 Credits & Acknowledgements
+- Special thanks to **Oriyuki** for providing the accurate Chinese map localization
