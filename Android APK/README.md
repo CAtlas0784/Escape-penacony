@@ -1,4 +1,5 @@
-# ppSR Map Teleporter - Android Standalone APK (Placeholder / Coming Soon) 📱📦
+# this is just for u to know that i will do it someday
+## ppSR Map Teleporter - Android Standalone APK (Placeholder / Coming Soon) 📱📦
 
 โฟลเดอร์นี้จัดเตรียมไว้สำหรับการพัฒนาและเผยแพร่ **Standalone Android APK (`.apk`)** ของเครื่องมือ **Escape Penacony (ppSR Scene & Map Teleporter)**
 
