@@ -1,44 +1,30 @@
-# this is just for u to know that i will do it someday
-## ppSR Map Teleporter - Android Standalone APK (Placeholder / Coming Soon) 📱📦
+# Escape penacony standalone (Android APK) 📱📦
 
-โฟลเดอร์นี้จัดเตรียมไว้สำหรับการพัฒนาและเผยแพร่ **Standalone Android APK (`.apk`)** ของเครื่องมือ **Escape Penacony (ppSR Scene & Map Teleporter)**
-
----
-
-## 🎯 เป้าหมายการพัฒนา (Development Goals)
-
-- **Native Graphical UI**: หน้าต่างแอปพลิเคชันระบบสัมผัส (Touch UI) พร้อม Material Design 3 ไม่ต้องใช้ Terminal หรือพิมพ์คำสั่ง
-- **Ultra Lightweight (~2 - 4 MB)**: พัฒนาด้วย Native Android (Kotlin / Jetpack Compose) ไม่ฝัง Python Runtime ขนาดใหญ่ ทำให้แอปเบา ลื่นไหล และเปิดใช้งานได้ทันที
-- **Safe Storage Access**: ใช้ Android Storage Access Framework (SAF) ในการเลือกและบันทึกไฟล์ `persistent.json` รองรับ Android 10, 11, 12, 13, 14, และ 15+
-- **Full Data Parity**: ใช้ฐานข้อมูล `scenes.json` ชุดเดียวกับเวอร์ชัน PC (PowerShell) และ Termux:
-  - แยกโหมด **Combat Ready** (มีเสา Calyx แท้) และ **Exploration** (ซ่อนเสาใต้ดิน Y=-999999)
-  - แยกป้ายกำกับชัดเจนระหว่าง **`[Product]`** (ตัวเกมทางการ) และ **`[🧪 4.7 Beta]`** (ตัวเกมเบต้า)
-  - รองรับ 3 ภาษาเต็มรูปแบบ: **English**, **ภาษาไทย**, **简体中文**
+โฟลเดอร์นี้เป็นส่วนเอกสารและพอยน์เตอร์สำหรับ **Escape penacony standalone** (แอปพลิเคชัน Native Android สำหรับจัดการฉากและวาร์ปแมพบนอุปกรณ์ Android โดยตรง)
 
 ---
 
-## 🏗️ โครงสร้างโปรเจกต์ที่วางแผนไว้ (Planned Architecture)
+## 🔗 ที่อยู่ของ Source Code (Dedicated Repository)
 
-```text
-Android APK/
-├── README.md               # เอกสารโครงการ (ไฟล์นี้)
-├── app/                    # ซอร์สโค้ด Native Android (Kotlin)
-│   ├── build.gradle.kts
-│   └── src/main/
-│       ├── AndroidManifest.xml
-│       ├── assets/
-│       │   └── scenes.json  # ฐานข้อมูลแผนที่ 8 โลก 85 แมพ
-│       ├── java/com/ppsr/teleport/
-│       │   ├── MainActivity.kt
-│       │   ├── model/       # Data classes (Planet, Scene)
-│       │   └── ui/          # Compose UI screens
-│       └── res/
-├── build.gradle.kts
-└── settings.gradle.kts
-```
+ซอร์สโค้ดและโปรเจกต์ Android Studio ของแอปพลิเคชันถูกแยกออกไปพัฒนาและจัดการใน Repository เฉพาะ:
+- **Repository**: [`Escape-penacony-standalone`](https://github.com/CAtlas0784/Escape-penacony-standalone)
+- **Local Directory**: `C:\Users\Phitchayut\Desktop\Escape-penacony-standalone`
 
 ---
 
-## ⏳ สถานะปัจจุบัน (Current Status)
+## 🌟 ฟีเจอร์ของแอปพลิเคชัน (Key Features)
 
-> 🚧 **Work in Progress**: ขณะนี้โครงสร้างโฟลเดอร์ถูกสร้างขึ้นเพื่อเตรียมพร้อมสำหรับการพัฒนา สำหรับผู้ใช้งานบนระบบปฏิบัติการ Android ในปัจจุบัน สามารถใช้งานเวอร์ชัน CLI ผ่านแอป Termux ในโฟลเดอร์ [`Android Termux/`](../Android%20Termux/) ได้ทันที
+- **Native Material Design 3 Touch UI**: สวยงาม ลื่นไหล ใช้งานง่ายบนหน้าจอสัมผัส
+- **8 ดวงดาว 85 ฉาก**: ครอบคลุมพิกัดครบถ้วนจากฐานข้อมูล `scenes.json`
+- **ระบบเลือกและบันทึกไฟล์ปลอดภัย**: ใช้ Android Storage Access Framework (SAF) เข้าถึง `persistent.json` ได้ทุกเวอร์ชัน (Android 8 - 15+)
+- **In-App Auto-Updater**: ระบบตรวจจับเวอร์ชันใหม่ผ่าน GitHub Releases API และติดตั้ง APK อัตโนมัติ (ตามแบบ FFGO)
+- **Hot-Data Sync (OTA)**: อัปเดตพิกัดแมพใหม่จาก GitHub ได้ทันทีโดยไม่ต้องติดตั้ง APK ใหม่
+- **รองรับ 3 ภาษา**: English (EN), ภาษาไทย (TH), และ 简体中文 (ZH)
+
+---
+
+## 📥 การดาวน์โหลดและติดตั้ง
+
+เมื่อมีเวอร์ชันใหม่ สามารถดาวน์โหลดไฟล์ `.apk` ได้จากหน้า [Releases](https://github.com/CAtlas0784/Escape-penacony-standalone/releases) หรือหน้า Releases ของโปรเจกต์หลัก
+
+> สำหรับการใช้งานบน Terminal / Command Line ในระบบปฏิบัติการ Android สามารถดูวิธีการใช้งานผ่าน Termux ได้ที่โฟลเดอร์ [`Android Termux/`](../Android%20Termux/)
