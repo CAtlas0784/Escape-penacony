@@ -7,9 +7,7 @@
 ## 🔗 ที่อยู่ของ Source Code (Dedicated Repository)
 
 ซอร์สโค้ดและโปรเจกต์ Android Studio ของแอปพลิเคชันถูกแยกออกไปพัฒนาและจัดการใน Repository เฉพาะ:
-- **Repository**: [`Escape-penacony-standalone`](https://github.com/CAtlas0784/Escape-penacony-standalone)
-- **Local Directory**: `C:\Users\Phitchayut\Desktop\Escape-penacony-standalone`
-
+- **Repository**: [`Escape-penacony-standalone`](https://www.youtube.com/watch?v=QDia3e12czc)
 ---
 
 ## 🌟 ฟีเจอร์ของแอปพลิเคชัน (Key Features)
@@ -25,6 +23,6 @@
 
 ## 📥 การดาวน์โหลดและติดตั้ง
 
-เมื่อมีเวอร์ชันใหม่ สามารถดาวน์โหลดไฟล์ `.apk` ได้จากหน้า [Releases](https://github.com/CAtlas0784/Escape-penacony-standalone/releases) หรือหน้า Releases ของโปรเจกต์หลัก
+เมื่อมีเวอร์ชันใหม่ สามารถดาวน์โหลดไฟล์ `.apk` ได้จากหน้า [Releases](https://github.com/CAtlas0784/Escape-penacony/releases) หรือหน้า Releases ของโปรเจกต์หลัก
 
 > สำหรับการใช้งานบน Terminal / Command Line ในระบบปฏิบัติการ Android สามารถดูวิธีการใช้งานผ่าน Termux ได้ที่โฟลเดอร์ [`Android Termux/`](../Android%20Termux/)
