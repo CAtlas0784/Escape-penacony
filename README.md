@@ -1,11 +1,26 @@
+<div align="center">
+
 # Escape Penacony Tool (ppSR Scene & Map Teleporter)
 
-An interactive, zero-hardcode CLI tool and companion utility for **ppSR** 
-Allows players to easily escape Penacony and explore all maps across the game with full Calyx combat support(Just kidding it not lmao)
+*An interactive, zero-hardcode CLI tool and companion utility for ppSR.*
+
+[English](README.md) · [简体中文](docs/README_ZH.md)
+
+</div>
+
+---
+
+An interactive, zero-hardcode CLI tool and companion utility for **ppSR**.  
+Allows players to easily escape Penacony and explore all maps across the game with full Calyx combat support (Just kidding it not lmao)
+
+<div align="center">
 
 [English](/README.md) · [简体中文](docs/README_ZH.md)
 
 ![terminal look](./Picture.png)
+
+</div>
+
 ---
 
 ## ✨ Features
@@ -48,9 +63,18 @@ Allows players to easily escape Penacony and explore all maps across the game wi
 Escape-penacony/
 ├── change_scene.bat       # Quick batch launcher (Auto 120x32 window)
 ├── ppsr_teleport.ps1      # Interactive navigation engine (EN/TH/ZH)
-├── scenes.json            # Database of 8 worlds and 83 maps (Multilingual)
+├── scenes.json            # Database of 8 worlds and 85 maps (Multilingual)
 ├── start_ppsr.bat         # UTF-8 server launcher for ppsr.exe
-├── README.md              # Documentation
+├── Android Termux/        # Android / Termux CLI edition (Python 3)
+│   ├── teleport.py        # Mobile CLI teleporter
+│   ├── scenes.json        # Bundled scenes database
+│   ├── start.sh           # Termux launcher script
+│   └── README.md          # Android setup guide
+├── Android APK/           # Standalone Android APK project (Placeholder)
+│   └── README.md          # APK roadmap & documentation
+├── README.md              # English documentation
+├── docs/
+│   └── README_ZH.md       # Chinese documentation (简体中文说明文档)
 └── .gitignore             # Local config & temporary file exclusions
 ```
 
@@ -63,5 +87,4 @@ Escape-penacony/
 ---
 
 ## 💖 Credits & Acknowledgements
-
 - Special thanks to **Oriyuki** for providing the accurate Chinese map localization

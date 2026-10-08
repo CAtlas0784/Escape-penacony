@@ -10,6 +10,8 @@ ehthumbs.db
 Desktop.ini
 .DS_Store
 
-# Python and temp files
-*.py
+# Python bytecode and temp files
+__pycache__/
+*.py[cod]
+*$py.class
 *.tmp

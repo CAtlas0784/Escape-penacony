@@ -71,6 +71,13 @@ Escape-penacony/
 ├── ppsr_teleport.ps1      # 交互式传送核心引擎 (EN/TH/ZH)
 ├── scenes.json            # 8 大世界 85 个地图的本地化数据库
 ├── start_ppsr.bat         # ppsr.exe 的 UTF-8 启动脚本
+├── Android Termux/        # Android / Termux 移动端 CLI 版本 (Python 3)
+│   ├── teleport.py        # 移动端命令行传送工具
+│   ├── scenes.json        # 内置场景数据库
+│   ├── start.sh           # Termux 一键启动脚本
+│   └── README.md          # Termux 使用说明文档
+├── Android APK/           # Android APK 独立应用项目 (占位与规划中)
+│   └── README.md          # APK 规划与说明文档
 ├── README.md              # 英文主说明文档
 ├── docs/
 │   └── README_ZH.md       # 简体中文说明文档
