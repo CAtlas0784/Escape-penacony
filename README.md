@@ -15,8 +15,6 @@ Allows players to easily escape Penacony and explore all maps across the game wi
 
 <div align="center">
 
-[English](/README.md) · [简体中文](docs/README_ZH.md)
-
 ![terminal look](./Picture.png)
 
 </div>
