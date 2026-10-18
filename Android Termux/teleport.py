@@ -461,6 +461,21 @@ def apply_scene_teleport(target_path: str, scene: Dict[str, Any], planet_name: s
         data["scene"]["calyx_entity_id"] = calyx_entity_id
         data["scene"]["calyx_prop_id"] = calyx_prop_id
 
+        if "entry_id" in scene and scene["entry_id"] is not None:
+            data["scene"]["entry_id"] = scene["entry_id"]
+        else:
+            data["scene"].pop("entry_id", None)
+
+        if "floor_id" in scene and scene["floor_id"] is not None:
+            data["scene"]["floor_id"] = scene["floor_id"]
+        else:
+            data["scene"].pop("floor_id", None)
+
+        if "saved_values" in scene and scene["saved_values"] is not None:
+            data["scene"]["saved_values"] = scene["saved_values"]
+        else:
+            data["scene"].pop("saved_values", None)
+
         # Write clean UTF-8 without BOM
         with open(target_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)

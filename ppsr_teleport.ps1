@@ -1,4 +1,4 @@
-﻿# ==============================================================================
+# ==============================================================================
 #  ppSR Scene & Map Teleporter Manager (Multilingual Edition: EN / TH / ZH)
 #  Compatible with ppSR (Project Star Rail / 4.4.x - 4.6.x+)
 # ==============================================================================
@@ -771,6 +771,22 @@ function Apply-SceneTeleport {
         $data.scene.calyx_inst_id = $calyxInstId
         $data.scene.calyx_entity_id = $calyxEntityId
         $data.scene.calyx_prop_id = $calyxPropId
+
+        if ($null -ne $Scene.entry_id) {
+            $data.scene | Add-Member -MemberType NoteProperty -Name "entry_id" -Value ([int]$Scene.entry_id) -Force
+        } else {
+            $data.scene.PSObject.Properties.Remove("entry_id")
+        }
+        if ($null -ne $Scene.floor_id) {
+            $data.scene | Add-Member -MemberType NoteProperty -Name "floor_id" -Value ([int]$Scene.floor_id) -Force
+        } else {
+            $data.scene.PSObject.Properties.Remove("floor_id")
+        }
+        if ($null -ne $Scene.saved_values) {
+            $data.scene | Add-Member -MemberType NoteProperty -Name "saved_values" -Value $Scene.saved_values -Force
+        } else {
+            $data.scene.PSObject.Properties.Remove("saved_values")
+        }
 
         # Save back to file strictly without UTF-8 BOM so Python json.load() won't crash
         $outJson = $data | ConvertTo-Json -Depth 10
